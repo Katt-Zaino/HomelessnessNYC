@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homelessness NYC Awareness Project</title>
+    <!-- Viewport meta tag for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external stylesheet (optional if you prefer inline styles) -->
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #000; /* Black background */
+            color: #ccc;            /* Light gray text */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;     /* Prevent horizontal scroll */
+        }
+        /* Navigation styles */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #111; /* Slightly lighter black */
+            z-index: 1000;
+        }
+        nav .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            flex-wrap: nowrap; /* Prevent items from wrapping */
+            position: relative; /* Needed for absolute positioning of nav menu */
+        }
+        nav .logo {
+            font-size: 1.5em;
+            color: #ccc;
+            white-space: nowrap; /* Prevent text from wrapping */
+        }
+        nav .logo a {
+            color: #ccc;
+            text-decoration: none;
+        }
+        nav .menu-icon {
+            display: none;
+            font-size: 1.5em;
+            color: #ccc;
+            cursor: pointer;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #fff;
+        }
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            nav .menu-icon {
+                display: block;
+            }
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: #111;
+                flex-direction: column;
+                align-items: center;
+                z-index: 999; /* Ensure the menu appears above other elements */
+            }
+            nav ul.show {
+                display: flex;
+            }
+            nav ul li {
+                margin: 15px 0;
+                text-align: center;
+            }
+            nav .logo {
+                font-size: 1.2em; /* Reduce font size on mobile */
+            }
+            nav .nav-container {
+                padding: 10px 15px; /* Reduce padding to save space */
+            }
+        }
+        @media (max-width: 480px) {
+            nav .logo {
+                font-size: 1em; /* Further reduce font size on very small screens */
+            }
+            nav .nav-container {
+                padding: 8px 10px; /* Further reduce padding */
+            }
+        }
+        /* Header styles */
+        .header {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 100px 20px 50px; /* Top padding accounts for fixed nav */
+        }
+        .header h1 {
+            font-size: clamp(24px, 5vw, 48px);
+            margin-bottom: 20px;
+        }
+        .header p {
+            max-width: 800px;
+            font-size: clamp(16px, 2.5vw, 24px);
+            margin: 0 auto;
+        }
+        /* Section styles */
+        section {
+            padding: 80px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section h2 {
+            font-size: clamp(22px, 4vw, 36px);
+            margin-bottom: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><a href="#top">Homelessness NYC</a></div>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="nav-menu">
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#documentaries">Documentaries</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#shelters">Shelter Locations</a></li>
+                <li><a href="#photographs">Photographs</a></li>
+                <li><a href="#stories">Real-Life Stories</a></li>
+                <li><a href="#legislation">Legislative Materials</a></li>
+                <li><a href="#laws">Laws</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header" id="top">
+        <h1>Welcome to Homelessness NYC Awareness</h1>
+        <p>
+            Our mission is to bring awareness to homelessness in New York City, especially within the youth community.
+            This platform will feature a wealth of resources including movies, documentaries, books, shelter locations,
+            photographs, real-life stories, legislative materials, laws, and more. Join us in understanding and combating
+            homelessness in our city.
+        </p>
+    </header>
+
+    <!-- Content Sections -->
+    <section id="movies">
+        <h2>Movies</h2>
+        <p>Content about movies will go here.</p>
+    </section>
+
+    <section id="documentaries">
+        <h2>Documentaries</h2>
+        <p>Content about documentaries will go here.</p>
+    </section>
+
+    <section id="books">
+        <h2>Books</h2>
+        <p>Content about books will go here.</p>
+    </section>
+
+    <section id="shelters">
+        <h2>Shelter Locations</h2>
+        <p>Content about shelter locations will go here.</p>
+    </section>
+
+    <section id="photographs">
+        <h2>Photographs</h2>
+        <p>Content about photographs will go here.</p>
+    </section>
+
+    <section id="stories">
+        <h2>Real-Life Stories</h2>
+        <p>Content about real-life stories will go here.</p>
+    </section>
+
+    <section id="legislation">
+        <h2>Legislative Materials</h2>
+        <p>Content about legislative materials will go here.</p>
+    </section>
+
+    <section id="laws">
+        <h2>Laws</h2>
+        <p>Content about laws will go here.</p>
+    </section>
+
+    <!-- JavaScript for the menu toggle -->
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('nav-menu');
+            menu.classList.toggle('show');
+        }
+
+        // Close menu when a link is clicked (for better UX on mobile)
+        var navLinks = document.querySelectorAll('nav ul li a');
+        navLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                var menu = document.getElementById('nav-menu');
+                menu.classList.remove('show');
+            });
+        });
+    </script>
+</body>
+</html>
+
