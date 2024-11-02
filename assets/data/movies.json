@@ -15,7 +15,7 @@
             "title": "Shelter song : art from the homeless",
             "year": 2018,
             "imageUrl": "/assets/images/movies/2018-Shelter-song.png",
-            "description": "Documentarian Joan Laskoff discovers artists and performers who show that dauntless creativity can exist even in the direst circumstances. The film explores the work of artists who are or have been homeless, giving us a candid look at their lives and the context for the wide range of art, from painting to hip hop, they produce. We also get invaluable insight into the therapeutic, empowering, and political potential of art.",
+            "description": "Documentarian Joan Laskoff discovers artists and performers who show that dauntless creativity can exist even in the direst circumstances.",
             "imdbUrl": "https://www.imdb.com/title/tt26448832/?ref_=fn_tt_tt_1",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=bb9b48b7-215f-5423-aeab-c8cbf4449a33&entityType=FormatGroup",
             "hideTitleOverlay": true
@@ -28,6 +28,56 @@
             "description": "Following director Rotimi Rainwater, a former homeless youth, as he travels the country to shine a light on the epidemic of youth homelessness in America.",
             "imdbUrl": "https://www.imdb.com/title/tt3448854/",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=b10b6d89-f3d8-5acb-ba9c-d8cb2c6a5ec5&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt2492002",
+            "title": "The Homestretch",
+            "year": 2014,
+            "imageUrl": "/assets/images/movies/tt2492002.png",
+            "description": "Following director Rotimi Rainwater, a former homeless youth, as he travels the country to shine a light on the epidemic of youth homelessness in America.",
+            "imdbUrl": "https://www.imdb.com/title/tt2492002/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=43a6160d-ce8e-5c8c-85ee-f7599b7e22a3&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt17279894",
+            "title": "After Skid Row",
+            "year": 2021,
+            "imageUrl": "/assets/images/movies/tt17279894.png",
+            "description": "After Skid Row documents the journey of Barbie Carter as she navigates the transition to housed life following the brutal reality of a decade on the streets.",
+            "imdbUrl": "https://www.imdb.com/title/tt17279894/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=f85fe694-cb53-5e88-9912-b237156c8a9b&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt7942696",
+            "title": "Game Girls",
+            "year": 2018,
+            "imageUrl": "/assets/images/movies/tt7942696.png",
+            "description": "Game Girls follows Teri and her girlfriend Tiahna as they navigate their relationship through the chaotic world of Los Angeles' Skid Row, aka the 'homeless capital of the U.S.'",
+            "imdbUrl": "https://www.imdb.com/title/tt7942696/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=10606fd0-6101-5d7f-b008-ac9b83e4053d&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3294746",
+            "title": "The Public",
+            "year": 2018,
+            "imageUrl": "/assets/images/movies/tt3294746.png",
+            "description": "An act of civil disobedience turns into a standoff with police when homeless people in Cincinnati take over the public library to seek shelter from the bitter cold.",
+            "imdbUrl": "https://www.imdb.com/title/tt3294746/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=efe8992a-62db-514b-84f2-6cc4022bcf24&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0091888",
+            "title": "Samaritan: The Mitch Snyder Story",
+            "year": 1986,
+            "imageUrl": "/assets/images/movies/tt0091888.png",
+            "description": "Fact-based story about Mitch Snyder (Martin Sheen), a Washington crusader for the homeless, who took their case to Congress. Working for the Community for Creative Non-violence, Snyder became outraged at the number of homeless people who had been dumped on the Washington streets without shelter from mental institutions and other care facilities.",
+            "imdbUrl": "https://www.imdb.com/title/tt0091888/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=539dfb21-77b3-5b5b-bb62-626156e7126e&entityType=FormatGroup",
             "hideTitleOverlay": true
         }
     ]
