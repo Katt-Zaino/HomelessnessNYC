@@ -79,6 +79,106 @@
             "imdbUrl": "https://www.imdb.com/title/tt0091888/",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=539dfb21-77b3-5b5b-bb62-626156e7126e&entityType=FormatGroup",
             "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0878804",
+            "title": "The Blind Side",
+            "year": 2009,
+            "imageUrl": "/assets/images/movies/tt0878804.png",
+            "description": "The story of Michael Oher, a homeless and traumatized boy who became an All-American football player and first-round NFL draft pick with the help of a caring woman and her family.",
+            "imdbUrl": "https://www.imdb.com/title/tt0878804/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=e664756c-a183-55fe-9bba-ae775cd958c3&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0101889",
+            "title": "The Fisher King",
+            "year": 1991,
+            "imageUrl": "/assets/images/movies/tt0101889.png",
+            "description": "A former radio DJ, suicidally despondent because of a terrible mistake he made, finds redemption in helping a deranged homeless man who was an unwitting victim of that mistake.",
+            "imdbUrl": "https://www.imdb.com/title/tt0101889/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=78b228a7-9912-5a11-8641-f929ea470f4a&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt8679160",
+            "title": "The Advocates",
+            "year": 2018,
+            "imageUrl": "/assets/images/movies/tt8679160.png",
+            "description": "THE ADVOCATES is a sweeping look at the history and causes of Los Angeles' current homeless crisis, and an intimate view of the tireless work of advocates who strive to create better lives for their homeless clients.",
+            "imdbUrl": "https://www.imdb.com/title/tt8679160/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=0f0d976d-6169-593e-8461-15e2717229c2&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3249414",
+            "title": "Above and Below",
+            "year": 2015,
+            "imageUrl": "/assets/images/movies/tt3249414.png",
+            "description": "A journey through an apocalyptic world following five survivors: Rick & Cindy, Godfather Lalo living in flood channels under Las Vegas, Dave in the Californian desert, and April at a Mars mission simulation in the Utah desert. The film explores challenges and beauty in uncomfortable places.",
+            "imdbUrl": "https://www.imdb.com/title/tt3249414/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=fdf06b79-4e85-5c66-bdd9-32b703a97758&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt6533972",
+            "title": "Princess of the Row",
+            "year": 2019,
+            "imageUrl": "/assets/images/movies/tt6533972.png",
+            "description": "The inspiring tale of a runaway foster child who will stop at nothing to live with the only family she knows: her homeless, mentally-ill veteran father who lives on the streets of LA's skid row.",
+            "imdbUrl": "https://www.imdb.com/title/tt6533972/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=5afd8619-c144-5e38-a2fe-abd9930c4be3&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1316089",
+            "title": "Without a Home",
+            "year": 2011,
+            "imageUrl": "/assets/images/movies/tt1316089.png",
+            "description": "A young woman's desire to understand the homeless epidemic in her native city of Los Angeles takes her on an unexpected 4 year journey into the lives of several homeless individuals as they struggle to find homes, get clean, and survive.",
+            "imdbUrl": "https://www.imdb.com/title/tt1316089/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=6e72f40a-cd96-5baa-be92-8e3cf4d52308&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1426386",
+            "title": "Lost Angels: Skid Row Is My Home",
+            "year": 2010,
+            "imageUrl": "/assets/images/movies/tt1426386.png",
+            "description": "Narrated by Catherine Keener, this documentary takes an uncompromising yet life-affirming look at the lives of eight remarkable individuals who have found a way to make a life for themselves within the community of Los Angeles's Skid Row, home to one of the largest homeless populations in the United States.",
+            "imdbUrl": "https://www.imdb.com/title/tt1426386/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=5fe264dc-6e76-56e7-8114-8e2a995e73a1&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt12649538",
+            "title": "One Life at a Time",
+            "year": 2020,
+            "imageUrl": "/assets/images/movies/tt12649538.png",
+            "description": "Featuring Dean Cain and Luke Schroder, One Life at a Time highlights both the importance of awareness and the misconceptions of homelessness in West Michigan, in addition to having an historical nod to Mel Trotter.",
+            "imdbUrl": "https://www.imdb.com/title/tt12649538/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=99cef813-6d90-5ebb-b064-caeacac4f469&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt2239940",
+            "title": "Becoming Leslie",
+            "year": 2019,
+            "imageUrl": "/assets/images/movies/tt2239940.png",
+            "description": "BECOMING LESLIE chronicles life on the streets as seen through the eyes of a cross-dressing, homeless man named Leslie Cochran, one of the most beloved yet polarizing cult figures of Austin, Texas. Told with unapologetic humor, Leslie's bizarre meteoric rise to iconic status is starkly contrasted with living life on his own terms in a changing world.",
+            "imdbUrl": "https://www.imdb.com/title/tt2239940/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=8d37fdd4-b8af-5e15-b551-65ad08e437ca&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1614430",
+            "title": "Little Red Wagon",
+            "year": 2012,
+            "imageUrl": "/assets/images/movies/tt1614430.png",
+            "description": "Based on the inspirational true story of eight-year-old Zach Bonner on his quest to help homeless children in America. With nothing more than his beat-up red wagon, he walks from his house in Tampa, FL to the White House, overcoming bureaucrats and blisters while capturing the hearts of his fractured family and the entire nation.",
+            "imdbUrl": "https://www.imdb.com/title/tt1614430/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=b857d669-a595-5588-8af0-7246c52828a7&entityType=FormatGroup",
+            "hideTitleOverlay": true
         }
     ]
 } 
