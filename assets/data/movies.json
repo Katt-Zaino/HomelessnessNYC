@@ -179,6 +179,86 @@
             "imdbUrl": "https://www.imdb.com/title/tt0235327/",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=2846173a-03c6-5710-a884-c74cc863152a&entityType=FormatGroup",
             "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0093277",
+            "title": "Ironweed",
+            "year": 1987,
+            "imageUrl": "/assets/images/movies/tt0093277.png",
+            "description": "An alcoholic drifter spends Halloween in his hometown of Albany, New York after returning there for the first time in decades. Set during the Great Depression, the film follows Francis Phelan (Jack Nicholson) and Helen Archer (Meryl Streep) as they struggle with homelessness and their past.",
+            "imdbUrl": "https://www.imdb.com/title/tt0093277/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=b52d20f8-435d-5e2d-8783-4680b19c3978&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3892172",
+            "title": "Leave No Trace",
+            "year": 2018,
+            "imageUrl": "/assets/images/movies/tt3892172.png",
+            "description": "Will and his teenage daughter, Tom, have lived off the grid for years in the forests of Portland, Oregon. When their idyllic life is shattered, both are put into social services. After clashing with their new surroundings, Will and Tom set off on a harrowing journey back to their wild homeland.",
+            "imdbUrl": "https://www.imdb.com/title/tt3892172/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=1e993daa-6eff-54c6-9a88-59f92657e562&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3722070",
+            "title": "The Lady in the Van",
+            "year": 2015,
+            "imageUrl": "/assets/images/movies/tt3722070.png",
+            "description": "After Miss Shepherd, a woman of uncertain origins, 'temporarily' parks her van in Alan Bennett's London driveway, what begins as a begrudged favor becomes a relationship that will change both their lives. Based on a true story.",
+            "imdbUrl": "https://www.imdb.com/title/tt3722070/",
+            "libraryUrl": "",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt2626090",
+            "title": "Noble",
+            "year": 2015,
+            "imageUrl": "/assets/images/movies/tt2626090.png",
+            "description": "Christina Noble overcomes the harsh difficulties of her childhood in Ireland to discover her destiny on the streets of Saigon. A true story of a woman who helps thousands of homeless and at-risk children in Vietnam.",
+            "imdbUrl": "https://www.imdb.com/title/tt2626090/",
+            "libraryUrl": "",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3505712",
+            "title": "Heaven Knows What",
+            "year": 2014,
+            "imageUrl": "/assets/images/movies/tt3505712.png",
+            "description": "A young heroin addict roams the streets of New York to panhandle and get her next fix while her unstable boyfriend drifts in and out of her life at random. Based on Arielle Holmes' memoir 'Mad Love in New York City.'",
+            "imdbUrl": "https://www.imdb.com/title/tt3505712/",
+            "libraryUrl": "",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt11041106",
+            "title": "The Justice of Bunny King",
+            "year": 2021,
+            "imageUrl": "/assets/images/movies/tt11041106.png",
+            "description": "A triumph over adversity tale about a mother fighting to reunite with her children. Bunny King, a homeless woman and windscreen washer, is trying to secure housing so she can regain custody of her kids, while also protecting her niece from an unsafe situation.",
+            "imdbUrl": "https://www.imdb.com/title/tt11041106/",
+            "libraryUrl": "",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0137223",
+            "title": "Surviving Friendly Fire",
+            "year": 1997,
+            "imageUrl": "/assets/images/movies/tt0137223.png",
+            "description": "In the early 90's seventy youth from a Hollywood homeless shelter started a theatre project encouraging them to tell their stories. The youth ran the gamut of racial, cultural and sexual identities. Only ten completed the project and became performers. This film documents the process of creating their play 'Friendly Fire' which was performed at the Los Angeles Festival.",
+            "imdbUrl": "https://www.imdb.com/title/tt0137223/",
+            "libraryUrl": "",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3606888",
+            "title": "A Street Cat Named Bob",
+            "year": 2016,
+            "imageUrl": "/assets/images/movies/tt3606888.png",
+            "description": "The true feel-good story of how James Bowen, a busker and recovering drug addict, has his life transformed when he meets a stray ginger cat. Based on the international best selling book.",
+            "imdbUrl": "https://www.imdb.com/title/tt3606888/",
+            "libraryUrl": "",
+            "hideTitleOverlay": true
         }
     ]
 } 
