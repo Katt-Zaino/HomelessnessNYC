@@ -222,10 +222,10 @@
         },
         {
             "id": "tt3505712",
-            "title": "Heaven Knows What",
+            "title": "Time Out of Mind",
             "year": 2014,
             "imageUrl": "/assets/images/movies/tt3505712.png",
-            "description": "A young heroin addict roams the streets of New York to panhandle and get her next fix while her unstable boyfriend drifts in and out of her life at random. Based on Arielle Holmes' memoir 'Mad Love in New York City.'",
+            "description": "Evicted from his squat and suddenly alone on the streets, George is a man without a home. Struggling with his demons and desperately trying to connect with the daughter he abandoned, he navigates the system, hustling for change and somewhere safe and quiet to gather his thoughts.",
             "imdbUrl": "https://www.imdb.com/title/tt3505712/",
             "libraryUrl": "",
             "hideTitleOverlay": true
@@ -258,6 +258,206 @@
             "description": "The true feel-good story of how James Bowen, a busker and recovering drug addict, has his life transformed when he meets a stray ginger cat. Based on the international best selling book.",
             "imdbUrl": "https://www.imdb.com/title/tt3606888/",
             "libraryUrl": "",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1285239",
+            "title": "The Christmas Choir",
+            "year": 2008,
+            "imageUrl": "/assets/images/movies/tt1285239.png",
+            "description": "A workaholic accountant is inspired to start a choir at a homeless shelter, allowing him to find a purpose to his life and discover the power of music, while providing the choir members with a chance at a new, better life.",
+            "imdbUrl": "https://www.imdb.com/title/tt1285239/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=3ed622e5-b2c7-5233-bcf6-d59bb7811d72&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0088196",
+            "title": "Streetwise",
+            "year": 1984,
+            "imageUrl": "/assets/images/movies/tt0088196.png",
+            "description": "A gritty documentary that looks at the lives of teenagers living on the streets of Seattle. The film follows several homeless youth as they struggle to survive, revealing the harsh realities of street life through their personal stories.",
+            "imdbUrl": "https://www.imdb.com/title/tt0088196/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=4e48d9b4-e340-571a-b682-9a190022afe9&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3657098",
+            "title": "12 Months",
+            "year": 2014,
+            "imageUrl": "/assets/images/movies/tt3657098.png",
+            "description": "What would you do if you had one year to change your life...for $1 per month? '12 Months' is a documentary about a Los Angeles man who rents his three-bedroom home for $1 per month to help a family he has never met get on their feet. Told through the eyes of Felicia Dukes and her four children, the project puts a personal face on homelessness and encourages individual action.",
+            "imdbUrl": "https://www.imdb.com/title/tt3657098/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=71e89520-9e78-5ec3-92f1-8abf3ae837a1&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0050800",
+            "title": "On the Bowery",
+            "year": 1956,
+            "imageUrl": "/assets/images/movies/tt0050800.png",
+            "description": "A documentary that focuses on the lives of three down-and-out alcoholic transients, creating a wrenching portrait of the tragic hopelessness of life on 'The Bowery' in New York City.",
+            "imdbUrl": "https://www.imdb.com/title/tt0050800/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=8b414e09-556f-5e88-bbf2-fd1ccda3e214&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1754736",
+            "title": "Chloe and Theo",
+            "year": 2015,
+            "imageUrl": "/assets/images/movies/tt1754736.png",
+            "description": "Chloe, a New York City woman, meets Theo, an Inuit from the Arctic, who has come to the city to warn the world about climate change. Together, they embark on a journey to raise awareness and inspire action to save the planet.",
+            "imdbUrl": "https://www.imdb.com/title/tt1754736/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=56c79825-3b8f-5ed4-9757-3a27bc2c5f39&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3297554",
+            "title": "Animals",
+            "year": 2014,
+            "imageUrl": "/assets/images/movies/tt3297554.png",
+            "description": "Animals tells the story of Jude and Bobbie: a young couple that exist somewhere between homelessness and the fantasy of their imaginations. Though they masterfully con and steal in an attempt to stay one step ahead of their addiction, they are ultimately forced to face the reality of their situation when one of them gets hospitalized.",
+            "imdbUrl": "https://www.imdb.com/title/tt3297554/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=77b966c8-7673-577f-aecf-2380ee3efc1c&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3119416",
+            "title": "Stray Dogs",
+            "year": 2013,
+            "imageUrl": "/assets/images/movies/tt3119416.png",
+            "description": "An alcoholic man and his two young children barely survive in Taipei. They cross paths with a lonely grocery clerk who might help them make a better life.",
+            "imdbUrl": "https://www.imdb.com/title/tt3119416/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=a96035f3-69a8-58e0-8d42-1894ed01aa26&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt26476006",
+            "title": "Tortu",
+            "year": 2024,
+            "imageUrl": "/assets/images/movies/tt26476006.png",
+            "description": "After losing his job and home, Adam moves to France to live with his great uncle. As he navigates his new life, he faces challenges and discovers the complexities of relationships and personal growth.",
+            "imdbUrl": "https://www.imdb.com/title/tt26476006/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=cd8d4cd4-f73b-54b8-9ebc-3b3b15ce79f8&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt8746192",
+            "title": "Translated",
+            "year": 2018,
+            "imageUrl": "/assets/images/movies/tt8746192.png",
+            "description": "Before his execution in Rome, the apostle Paul is miraculously transported to the modern day United States, where he learns English and attempts to solve some of the problems facing modern Christians.",
+            "imdbUrl": "https://www.imdb.com/title/tt8746192/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=6512c578-eac2-5980-a353-27d5897d3ae3&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0455323",
+            "title": "The Pursuit of Happyness",
+            "year": 2006,
+            "imageUrl": "/assets/images/movies/tt0455323.png",
+            "description": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career. Based on the true story of Chris Gardner, who faced homelessness while raising his son.",
+            "imdbUrl": "https://www.imdb.com/title/tt0455323/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=9022ee7f-0b91-579e-b559-58264b66dbfb&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt4893328",
+            "title": "Stock Option",
+            "year": 2015,
+            "imageUrl": "/assets/images/movies/tt4893328.png",
+            "description": "When a homeless ex-stock broker rescues a famous model from a robbery attempt, she takes him home as an act of gratitude. Their lives intertwine in unexpected ways as they navigate their personal challenges.",
+            "imdbUrl": "https://www.imdb.com/title/tt4893328/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=a092ab15-faa0-55a3-9a5f-2502d6308a51&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt4109096",
+            "title": "Lyfe's Journey",
+            "year": 2014,
+            "imageUrl": "/assets/images/movies/tt4109096.png",
+            "description": "A young man struggles to find his way in life while dealing with the challenges of homelessness and the impact of his past decisions. The film explores themes of resilience, redemption, and the importance of community support.",
+            "imdbUrl": "https://www.imdb.com/title/tt4109096/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=4ff2fbb2-f1c8-51ab-88e8-9214a0fda366&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0110217",
+            "title": "Jupiter's Wife",
+            "year": 1995,
+            "imageUrl": "/assets/images/movies/tt0110217.png",
+            "description": "A documentary that follows the life of a homeless woman who claims to be the wife of the planet Jupiter. The film explores her experiences and the realities of life on the streets, blending fantasy and reality.",
+            "imdbUrl": "https://www.imdb.com/title/tt0110217/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=433c41de-24d4-5dc6-b9b8-821da69e4d1a&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0808285",
+            "title": "The Good Heart",
+            "year": 2009,
+            "imageUrl": "/assets/images/movies/tt0808285.png",
+            "description": "A self-destructive bar owner and a young man who is about to die form an unlikely friendship. The film explores themes of love, loss, and the impact of kindness in a harsh world.",
+            "imdbUrl": "https://www.imdb.com/title/tt0808285/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=64b10228-fb23-5bfe-90f4-1c1b9a686008&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0022718",
+            "title": "Boudu Saved from Drowning",
+            "year": 1932,
+            "imageUrl": "/assets/images/movies/tt0022718.png",
+            "description": "A bookseller saves a tramp from drowning and shelters him, but the tramp's odd behavior starts to wear everyone down. This classic French film is a satire on social norms and the impact of homelessness.",
+            "imdbUrl": "https://www.imdb.com/title/tt0022718/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=c4b6d696-b5b1-5233-9af0-71a72a0fbf1b&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt5073020",
+            "title": "God Knows Where I Am",
+            "year": 2016,
+            "imageUrl": "/assets/images/movies/tt5073020.png",
+            "description": "Through diary entries, this documentary follows the life and death of homeless woman Linda Bishop and her struggles with starvation, sanity, and God.",
+            "imdbUrl": "https://www.imdb.com/title/tt5073020/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=80d14e7d-741f-599f-862e-3641e6dad5f3&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt13701404",
+            "title": "MVP",
+            "year": 2022,
+            "imageUrl": "/assets/images/movies/tt13701404.png",
+            "description": "On the streets of Hollywood, a recently retired NFL player is saved from scandal by a homeless veteran. With their 'glory days' behind them, the two men bond in search of purpose and identity.",
+            "imdbUrl": "https://www.imdb.com/title/tt13701404/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=6ed40b53-d417-5684-9b98-79ad1f3ec802&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt2088924",
+            "title": "The Cold Lands",
+            "year": 2013,
+            "imageUrl": "/assets/images/movies/tt2088924.png",
+            "description": "When his self-reliant mother dies unexpectedly, Atticus flees deep into the forests surrounding his Catskills home. Wandering the woods in shock, relying on what meager food and shelter he comes across, Atticus' grasp on reality begins to fray. His nerves worn thin, Atticus latches on when he encounters Carter, a scruffy, pot-smoking drifter, who lives out of his car and sells handmade necklaces on the festival circuit.",
+            "imdbUrl": "https://www.imdb.com/title/tt2088924/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=7575ac29-bafe-5c48-ae83-cf1f25930a46&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt6932766",
+            "title": "Waikiki",
+            "year": 2020,
+            "imageUrl": "/assets/images/movies/tt6932766.png",
+            "description": "When a hula dancer on the run crashes into a broken spirit of a man, they begin a journey into a hidden world, developing a connection through humanity, nature, and culture.",
+            "imdbUrl": "https://www.imdb.com/title/tt6932766/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=ca44937e-4917-5d82-9a1f-79575589a938&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3910814",
+            "title": "All We Had",
+            "year": 2016,
+            "imageUrl": "/assets/images/movies/tt3910814.png",
+            "description": "A mother struggles to make a better life for her daughter while facing the challenges of homelessness and personal hardship. The film explores themes of resilience and the bond between mother and child.",
+            "imdbUrl": "https://www.imdb.com/title/tt3910814/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=dd023cf5-698a-512b-8d01-72aa347679fa&entityType=FormatGroup",
             "hideTitleOverlay": true
         }
     ]
