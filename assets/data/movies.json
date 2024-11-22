@@ -459,6 +459,46 @@
             "imdbUrl": "https://www.imdb.com/title/tt3910814/",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=dd023cf5-698a-512b-8d01-72aa347679fa&entityType=FormatGroup",
             "hideTitleOverlay": true
+        },
+        {
+            "id": "tt9108510",
+            "title": "Bill Traylor: Chasing Ghosts",
+            "year": 2019,
+            "imageUrl": "/assets/images/movies/tt9108510.png",
+            "description": "An inventive feature documentary capturing the vivid life of Bill Traylor, who in his late 80s, living homeless on the street in the thriving segregated black neighborhood of Montgomery, produced a body of extraordinary art. Born into slavery in 1853, Traylor witnessed profound social and political change during his life.",
+            "imdbUrl": "https://www.imdb.com/title/tt9108510/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=6bf81b60-22cf-5708-964f-c2b8de6f94ef&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt7297994",
+            "title": "Diamond in the Rough",
+            "year": 2019,
+            "imageUrl": "/assets/images/movies/tt7297994.png",
+            "description": "Michelle, a young teen in Colorado, loses her faith amidst extreme hardships and brief homelessness. With a mother battling drug and alcohol addiction and a war veteran father suffering from PTSD, violence and dysfunction are the norm. However, with a grandmother strong in her faith and new friendships at school, Michelle begins to find hope.",
+            "imdbUrl": "https://www.imdb.com/title/tt7297994/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=bee6dd34-ebe4-56af-b850-e2aada956189&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt2370528",
+            "title": "Hiding in Plain Sight",
+            "year": 2012,
+            "imageUrl": "/assets/images/movies/tt2370528.png",
+            "description": "When resources run out, Darius and Josephine Blackmon find themselves living in their car with their two young children. This inspiring tale of hope explores the challenges faced by families on the brink of homelessness.",
+            "imdbUrl": "https://www.imdb.com/title/tt2370528/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=025f0a80-4634-5b02-8800-555ba94babb7&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1425929",
+            "title": "Maggie's Passage",
+            "year": 2009,
+            "imageUrl": "/assets/images/movies/tt1425929.png",
+            "description": "Maggie, an 18-year-old girl, leaves her adopted Christian home after her father's tragic death. In search of her birth mother, she discovers a harsh reality that challenges her understanding of love and family.",
+            "imdbUrl": "https://www.imdb.com/title/tt1425929/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=cd77dc4f-55f7-5d04-902d-28b3468456c7&entityType=FormatGroup",
+            "hideTitleOverlay": true
         }
     ]
 } 
