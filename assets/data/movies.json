@@ -499,6 +499,226 @@
             "imdbUrl": "https://www.imdb.com/title/tt1425929/",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=cd77dc4f-55f7-5d04-902d-28b3468456c7&entityType=FormatGroup",
             "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0800272",
+            "title": "The Hip Hop Project",
+            "year": 2006,
+            "imageUrl": "/assets/images/movies/tt0800272.png",
+            "description": "The story of a group of New York City teenagers who transform their life stories into powerful works of art, using hip hop as a vehicle for self-development and personal discovery. The film traces the evolution of this award-winning outreach program developed by Kazi, a formerly homeless teenager turned youth mentor.",
+            "imdbUrl": "https://www.imdb.com/title/tt0800272/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=ea0a8e32-fc37-584c-b541-0e12bd882164&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0067549",
+            "title": "The Panic in Needle Park",
+            "year": 1971,
+            "imageUrl": "/assets/images/movies/tt0067549.png",
+            "description": "Follows the lives of heroin addicts who frequent 'Needle Park' in New York City. The film provides a raw and unflinching look at addiction and its impact on relationships.",
+            "imdbUrl": "https://www.imdb.com/title/tt0067549/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=1fc0e42d-14c5-5933-8d67-0d48b5092cca&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt4211044",
+            "title": "Adult Life Skills",
+            "year": 2016,
+            "imageUrl": "/assets/images/movies/tt4211044.png",
+            "description": "Anna (Jodie Whittaker) is comfortable living in her mom's garden shed making funny videos all day, but as she approaches 30, she starts feeling the pressure to move on and 'grow up' without compromising her youthful spirit.",
+            "imdbUrl": "https://www.imdb.com/title/tt4211044/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=216c2a6c-0e9c-5ef5-9145-088c068ca6c0&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0096028",
+            "title": "Salaam Bombay!",
+            "year": 1988,
+            "imageUrl": "/assets/images/movies/tt0096028.png",
+            "description": "Young Krishna struggles to survive among the drug dealers, pimps, and prostitutes in the back alleys and gutters of India. The film provides a poignant look at the harsh realities of life for street children in Mumbai.",
+            "imdbUrl": "https://www.imdb.com/title/tt0096028/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=11327704-5aff-5513-bbab-e09d5dc35d83&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1571409",
+            "title": "Parked",
+            "year": 2010,
+            "imageUrl": "/assets/images/movies/tt1571409.png",
+            "description": "Fred Daly returns to Ireland with nowhere to live but his car. Then dope-smoking 21-year-old Cathal parks beside him and brightens up his lonely world. Encouraged by Cathal, Fred meets attractive music teacher Jules, and their lives begin to change.",
+            "imdbUrl": "https://www.imdb.com/title/tt1571409/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=322e9482-606d-57f7-83af-fcb70e301972&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0277027",
+            "title": "I Am Sam",
+            "year": 2001,
+            "imageUrl": "/assets/images/movies/tt0277027.png",
+            "description": "An intellectually disabled man fights for custody of his 7-year-old daughter and in the process teaches his cold-hearted lawyer the value of love and family.",
+            "imdbUrl": "https://www.imdb.com/title/tt0277027/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=70d18674-d45d-502b-bc2f-211bcbc6a640&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt7893084",
+            "title": "I Was a Soldier",
+            "year": 2024,
+            "imageUrl": "/assets/images/movies/tt7893084.png",
+            "description": "A tale of friendship and camaraderie. Homeless veteran Dave finds hope in an unlikely place whilst trying to save his dog Sally.",
+            "imdbUrl": "https://www.imdb.com/title/tt7893084/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=f9e8568b-f114-503c-901e-1b7b88a6ffcf&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1149361",
+            "title": "Micmacs",
+            "year": 2009,
+            "imageUrl": "/assets/images/movies/tt1149361.png",
+            "description": "After being shot in the head, Bazil finds himself homeless and taken in by a group of misfits living in a junkyard. Together, they devise an elaborate plan to take down the arms manufacturers responsible for his plight.",
+            "imdbUrl": "https://www.imdb.com/title/tt1149361/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=f719663d-25dc-55d0-9ea5-6be3236fec8c&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt11261538",
+            "title": "Subject 101",
+            "year": 2022,
+            "imageUrl": "/assets/images/movies/tt11261538.png",
+            "description": "A homeless refugee looks for a fresh start at a European multinational temp agency - but they have very different plans for him.",
+            "imdbUrl": "https://www.imdb.com/title/tt11261538/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=66a73bfe-edad-52a2-afbb-9e2d4def936f&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3105662",
+            "title": "Breaking the Bank",
+            "year": 2014,
+            "imageUrl": "/assets/images/movies/tt3105662.png",
+            "description": "With ruthless US and Japanese investment banks circling Tuftons, a struggling 200-year-old family-run British bank, can its bumbling, incompetent chairman, Sir Charles Bunbury, fend off the onslaught and save the bank?",
+            "imdbUrl": "https://www.imdb.com/title/tt3105662/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=8da3269b-ff48-512c-a6d9-bcd5f18fcb04&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt21285070",
+            "title": "Comedy Confessions",
+            "year": 2022,
+            "imageUrl": "/assets/images/movies/tt21285070.png",
+            "description": "Comedy Confessions follows the lives of three struggling comedians dedicated to pursuing their dreams of careers in stand-up despite the harsh realities of being homeless. One of them, Tiffany Haddish, eventually achieves her goals and becomes a Hollywood star.",
+            "imdbUrl": "https://www.imdb.com/title/tt21285070/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=a50e6201-71da-5f3c-8d5f-5e1790674eba&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt8655738",
+            "title": "Eternal Code",
+            "year": 2019,
+            "imageUrl": "/assets/images/movies/tt8655738.png",
+            "description": "Eternal life technology (transferring mind to new body) is developed by two companies. Resistance to the merger of the two companies is met with kidnapping and murder.",
+            "imdbUrl": "https://www.imdb.com/title/tt8655738/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=d077c9c9-2d50-5986-b01a-e64fc24fab1b&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt10328018",
+            "title": "A Child of the King",
+            "year": 2019,
+            "imageUrl": "/assets/images/movies/tt10328018.png",
+            "description": "An American doctor establishes an orphanage in Ecuador to help the starving and homeless children of the Amazon rainforest.",
+            "imdbUrl": "https://www.imdb.com/title/tt10328018/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=4e2339ba-97d7-5c12-a348-5085abc729a8&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0098325",
+            "title": "Sidewalk Stories",
+            "year": 1989,
+            "imageUrl": "/assets/images/movies/tt0098325.png",
+            "description": "Nearly silent comedy filmed in black and white follows a street artist (Charles Lane), who rescues a baby after her father is murdered. The artist then sets off to find the mother, but has to first learn how to care for the child. Ultimately, he ends up in a horse-drawn chase of the murderers.",
+            "imdbUrl": "https://www.imdb.com/title/tt0098325/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=625dfecf-a982-5c0c-aa2f-c547d1039759&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1864557",
+            "title": "Road North",
+            "year": 2012,
+            "imageUrl": "/assets/images/movies/tt1864557.png",
+            "description": "A father who was absent for 30 years of his son's life returns and wants to bond with his son on a road trip to the north.",
+            "imdbUrl": "https://www.imdb.com/title/tt1864557/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=97ce67da-d1a0-58d2-a1bc-0c211e4ad4ac&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0116259",
+            "title": "Extreme Measures",
+            "year": 1996,
+            "imageUrl": "/assets/images/movies/tt0116259.png",
+            "description": "A young doctor confronts a famous colleague when he learns about the true methods of his work. The film explores ethical dilemmas in the medical field and the lengths to which individuals will go to uncover the truth.",
+            "imdbUrl": "https://www.imdb.com/title/tt0116259/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=893aaeff-5555-5018-b5eb-87515f623c7a&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1828968",
+            "title": "Don Peyote",
+            "year": 2014,
+            "imageUrl": "/assets/images/movies/tt1828968.png",
+            "description": "Warren Allman, an unemployed stoner, finds purpose in life after an encounter with a homeless man preaching about the end of the world. Fueled by vivid apocalyptic dreams, he becomes obsessed with doomsday theories and decides to make a documentary on the subject.",
+            "imdbUrl": "https://www.imdb.com/title/tt1828968/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=fedce8d3-e5b5-52c7-b83d-e84b032e9cf5&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt2387132",
+            "title": "Mr. Angel",
+            "year": 2013,
+            "imageUrl": "/assets/images/movies/tt2387132.png",
+            "description": "Mr. Angel chronicles the extraordinary life of transgender activist and porn pioneer, Buck Angel. He survived addiction, prostitution, and suicide and now tells a moving story of a man's search for acceptance from his family and the world.",
+            "imdbUrl": "https://www.imdb.com/title/tt2387132/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=0cca05b8-cf87-5e65-a613-12f4732491ae&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0032551",
+            "title": "The Grapes of Wrath",
+            "year": 1940,
+            "imageUrl": "/assets/images/movies/tt0032551.png",
+            "description": "An Oklahoma family, driven off their farm by the poverty and hopelessness of the Dust Bowl, joins the westward migration to California, suffering the misfortunes of the homeless in the Great Depression.",
+            "imdbUrl": "https://www.imdb.com/title/tt0032551/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=9702f33c-2158-51d6-aa69-164546b22eb9&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt4839118",
+            "title": "Black Wake",
+            "year": 2018,
+            "imageUrl": "/assets/images/movies/tt4839118.png",
+            "description": "Strange events are happening such as people disappearing, irrational behavior, and unexplainable deaths. Specialists gather in a top-secret facility to investigate and find that the common thread between the occurrences is water. One of the team's scientists examines video evidence and uncovers a possible parasitic explanation for the fatalities. But when a determined detective sends her the seemingly crazed writings of a mysterious homeless man, she learns that the actual threat may be more dangerous and far older than anyone ever imagined.",
+            "imdbUrl": "https://www.imdb.com/title/tt4839118/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=c8e2d3ce-6a21-54e0-99e5-7824201f8932&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt2866674",
+            "title": "Thy Will Be Done",
+            "year": 2013,
+            "imageUrl": "/assets/images/movies/tt2866674.png",
+            "description": "An ex-pastor, whose church was destroyed during Hurricane Katrina, loses his faith and becomes a homeless wanderer. After surviving a near-death experience, he mysteriously awakens in a church that is in desperate need of a pastor.",
+            "imdbUrl": "https://www.imdb.com/title/tt2866674/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=27030d4a-f33b-5c50-bd72-ad7433a373e0&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt3080844",
+            "title": "Almost Holy",
+            "year": 2015,
+            "imageUrl": "/assets/images/movies/tt3080844.png",
+            "description": "Gennadiy calls himself 'Pastor Crocodile.' He's known throughout Ukraine for his years working to rehabilitate drug-addicted kids. But he's also a vigilante who uses any force necessary to carry out his moral vision. Gennadiy believes he has made Mariupol a better place, but now, the violence in Ukraine threatens everything.",
+            "imdbUrl": "https://www.imdb.com/title/tt3080844/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=6380aa7f-9017-5ef9-b630-1b8019f60e04&entityType=FormatGroup",
+            "hideTitleOverlay": true
         }
     ]
 } 
