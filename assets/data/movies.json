@@ -1,6 +1,26 @@
 {
     "movies": [
         {
+            "id": "tt1201576",
+            "title": "Kassim the Dream",
+            "year": 2008,
+            "imageUrl": "/assets/images/movies/tt1201576.png",
+            "description": "This is the story of Kassim Ouma - born in Uganda, kidnapped by the rebel army and trained to be a child soldier at age 6. After a decade of warfare, Kassim defected to America, and soon became the Junior Middle Weight Boxing Champion of the World.",
+            "imdbUrl": "https://www.imdb.com/title/tt1201576/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=dede432a-e64e-51c5-9757-8ea9ad052d9a&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt2486312",
+            "title": "Between Heaven and Ground Zero",
+            "year": 2012,
+            "imageUrl": "/assets/images/movies/tt2486312.png",
+            "description": "Inspired by the popular and emotional book, this documentary focuses on Leslie Haskin's harrowing first-hand account of being one of the last people to leave one of the crumbling twin towers and her remarkable journey afterward.",
+            "imdbUrl": "https://www.imdb.com/title/tt2486312/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=ca27c7e7-29a9-530a-a36b-800faee2f90e&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
             "id": "tt1981675",
             "title": "Off-White Lies",
             "year": 2011,
