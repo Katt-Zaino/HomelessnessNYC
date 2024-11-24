@@ -1,6 +1,26 @@
 {
     "movies": [
         {
+            "id": "tt3072876",
+            "title": "Queen Mimi",
+            "year": 2015,
+            "imageUrl": "/assets/images/movies/tt3072876.png",
+            "description": "Forced onto the streets in her 50s, Marie found 'home' at a Santa Monica laundromat. Taking shelter there for 20 years, Mimi's passion for pink, and living without looking back, has taken her from homelessness to Hollywood's red carpets.",
+            "imdbUrl": "https://www.imdb.com/title/tt3072876/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=98459602-2c39-574f-9f11-43b89a186785&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0064622",
+            "title": "The Magic Christian",
+            "year": 1969,
+            "imageUrl": "/assets/images/movies/tt0064622.png",
+            "description": "The world's richest man and his adopted hobo son set out to test the limits of human vanity and greed through a series of 'money games'.",
+            "imdbUrl": "https://www.imdb.com/title/tt0064622/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=e603415c-8dad-5ac1-a949-318ace2cab0f&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
             "id": "tt3230660",
             "title": "Cardboard Boxer",
             "year": 2016,
@@ -115,7 +135,7 @@
             "title": "Game Girls",
             "year": 2018,
             "imageUrl": "/assets/images/movies/tt7942696.png",
-            "description": "Game Girls follows Teri and her girlfriend Tiahna as they navigate their relationship through the chaotic world of Los Angeles's Skid Row, aka the 'homeless capital of the U.S.'",
+            "description": "Game Girls follows Teri and her girlfriend Tiahna as they navigate their relationship through the chaotic world of Los Angeles' Skid Row, aka the 'homeless capital of the U.S.'",
             "imdbUrl": "https://www.imdb.com/title/tt7942696/",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=10606fd0-6101-5d7f-b008-ac9b83e4053d&entityType=FormatGroup",
             "hideTitleOverlay": true
