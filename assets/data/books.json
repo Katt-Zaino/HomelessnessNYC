@@ -1,0 +1,20 @@
+{
+    "books": [
+        {
+            "title": "The Glass Castle",
+            "year": 2005,
+            "description": "A memoir by Jeannette Walls, detailing her unconventional and often harsh upbringing in a dysfunctional family.",
+            "imageUrl": "/assets/images/books/the_glass_castle.png",
+            "libraryBookUrl": "https://borrow.nypl.org/search/card?id=6cb531a9-e424-5e48-a38e-28ecc47ef0cf&entityType=FormatGroup",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=bcbe1038-f5a0-5824-b282-ec3a0928b8bd&entityType=FormatGroup"
+        },
+        {
+            "title": "The Other Side of the River",
+            "year": 2006,
+            "description": "A gripping account of the lives of homeless people in America, exploring their struggles and resilience.",
+            "imageUrl": "/assets/images/books/the_other_side_of_the_river.jpg",
+            "libraryBookUrl": "https://www.imdb.com/title/tt1234567/",
+            "libraryUrl": "https://www.examplelibrary.com/the-other-side-of-the-river"
+        }
+    ]
+}

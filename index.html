@@ -377,9 +377,17 @@
 
     <section id="books">
         <h2>Books</h2>
-        <p></p>
-        <p> Sasha Abramsky: The American Way of Poverty
-            How the other Half Lives.</p>
+        <div class="year-filter" id="bookYearFilter">
+            <button class="year-btn active" data-year="all">All</button>
+            <!-- Years will be added here dynamically -->
+        </div>
+        <button class="scroll-btn left" id="bookScrollLeft">←</button>
+        <button class="scroll-btn right" id="bookScrollRight">→</button>
+        <div class="movie-scroll">
+            <div id="book-container" class="movie-container">
+                <!-- Books will be loaded here dynamically -->
+            </div>
+        </div>
     </section>
 
     <section id="shelters">
@@ -560,6 +568,143 @@
 
         // Add this to your existing JavaScript
         initializeScrollButtons();
+
+        async function loadBooks() {
+            try {
+                const response = await fetch('/assets/data/books.json');
+                const data = await response.json();
+                
+                // Sort books by year (oldest to newest)
+                const sortedBooks = data.books.sort((a, b) => a.year - b.year);
+                
+                // Update the section title with book count
+                const bookSection = document.getElementById('books');
+                const titleElement = bookSection.querySelector('h2');
+                titleElement.textContent = `Books (${sortedBooks.length})`;
+                
+                // Get unique years and create filter buttons
+                const years = [...new Set(sortedBooks.map(book => book.year))].sort();
+                const bookYearFilter = document.getElementById('bookYearFilter');
+                
+                // Clear existing buttons first
+                bookYearFilter.innerHTML = '<button class="year-btn active" data-year="all">All</button>';
+                
+                years.forEach(year => {
+                    const yearBtn = document.createElement('button');
+                    yearBtn.className = 'year-btn';
+                    yearBtn.textContent = year;
+                    yearBtn.dataset.year = year.toString(); // Ensure year is string
+                    bookYearFilter.appendChild(yearBtn);
+                });
+                
+                const container = document.getElementById('book-container');
+                container.innerHTML = ''; // Clear existing content
+                
+                // Create book cards
+                sortedBooks.forEach(book => {
+                    const bookCard = document.createElement('div');
+                    bookCard.className = `movie-card ${book.hideTitleOverlay ? 'hide-title' : 'show-title'}`;
+                    bookCard.dataset.year = book.year.toString(); // Ensure year is string
+                    
+                    bookCard.innerHTML = `
+                        <img src="${book.imageUrl}" alt="${book.title}">
+                        <div class="movie-info">
+                            <div class="movie-title">${book.title}</div>
+                            <div class="movie-year">${book.year}</div>
+                            <div class="movie-description-preview">${book.description}</div>
+                        </div>
+                        <div class="movie-overlay">
+                            <div class="movie-description">${book.description}</div>
+                            <div class="movie-links">
+                                ${book.libraryBookUrl ? `
+                                    <a href="${book.libraryBookUrl}" target="_blank" class="movie-link">Book</a>
+                                ` : ''}
+                                ${book.libraryUrl ? `
+                                    <a href="${book.libraryUrl}" target="_blank" class="movie-link">Audio</a>
+                                ` : ''}
+                            </div>
+                        </div>
+                    `;
+                    
+                    container.appendChild(bookCard);
+                });
+
+                // Add click handlers for year filters
+                document.querySelectorAll('.year-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        // Remove active class from all buttons
+                        document.querySelectorAll('.year-btn').forEach(b => 
+                            b.classList.remove('active')
+                        );
+                        // Add active class to clicked button
+                        e.target.classList.add('active');
+                        
+                        const selectedYear = e.target.dataset.year;
+                        console.log('Selected year:', selectedYear); // Debug log
+                        
+                        document.querySelectorAll('.movie-card').forEach(card => {
+                            if (
+                                card.dataset.year === selectedYear ||
+                                selectedYear === 'all'
+                            ) {
+                                card.style.display = '';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        });
+                    });
+                });
+
+                initializeBookScrollButtons();
+            } catch (error) {
+                console.error('Error loading books:', error);
+                document.getElementById('book-container').innerHTML = 
+                    '<p>Error loading books. Please try again later.</p>';
+            }
+        }
+
+        // Load books when the page loads
+        document.addEventListener('DOMContentLoaded', loadBooks);
+
+        function initializeBookScrollButtons() {
+            const scrollContainer = document.querySelector('.movie-scroll');
+            const leftBtn = document.getElementById('bookScrollLeft');
+            const rightBtn = document.getElementById('bookScrollRight');
+            
+            // Scroll amount for each click (adjust as needed)
+            const scrollAmount = 400;
+
+            // Update button visibility
+            function updateScrollButtons() {
+                const isAtStart = scrollContainer.scrollLeft === 0;
+                const isAtEnd = scrollContainer.scrollLeft + scrollContainer.clientWidth >= scrollContainer.scrollWidth;
+                
+                leftBtn.classList.toggle('hidden', isAtStart);
+                rightBtn.classList.toggle('hidden', isAtEnd);
+            }
+
+            // Scroll left
+            leftBtn.addEventListener('click', () => {
+                scrollContainer.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Scroll right
+            rightBtn.addEventListener('click', () => {
+                scrollContainer.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Listen for scroll events to update button visibility
+            scrollContainer.addEventListener('scroll', updateScrollButtons);
+        }
+
+        // Add this to your existing JavaScript
+        initializeBookScrollButtons();
     </script>
 </body>
 </html>

@@ -1,6 +1,26 @@
 {
     "movies": [
         {
+            "id": "tt1981675",
+            "title": "Off-White Lies",
+            "year": 2011,
+            "imageUrl": "/assets/images/movies/tt1981675.png",
+            "description": "A father and his daughter, during the 2006 war between Israel and Lebanon.",
+            "imdbUrl": "https://www.imdb.com/title/tt1981675/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=e6cff0c2-e7dd-5383-a683-adb756a04812&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt2382396",
+            "title": "Joe",
+            "year": 2013,
+            "imageUrl": "/assets/images/movies/tt2382396.png",
+            "description": "An ex-con, who is the unlikeliest of role models, meets a 15-year-old boy and is faced with the choice of redemption or ruin.",
+            "imdbUrl": "https://www.imdb.com/title/tt2382396/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=ac35e7c1-244c-5f8d-9b60-1c10441f0b31&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
             "id": "tt3140044",
             "title": "HOMELESS",
             "year": 2015,
@@ -718,6 +738,26 @@
             "description": "Gennadiy calls himself 'Pastor Crocodile.' He's known throughout Ukraine for his years working to rehabilitate drug-addicted kids. But he's also a vigilante who uses any force necessary to carry out his moral vision. Gennadiy believes he has made Mariupol a better place, but now, the violence in Ukraine threatens everything.",
             "imdbUrl": "https://www.imdb.com/title/tt3080844/",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=6380aa7f-9017-5ef9-b630-1b8019f60e04&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt0168589",
+            "title": "La Ciudad (The City)",
+            "year": 1998,
+            "imageUrl": "/assets/images/movies/tt0168589.png",
+            "description": "The stories of four Hispanic immigrants living in New York City.",
+            "imdbUrl": "https://www.imdb.com/title/tt0168589/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=1756b37a-03e3-5b85-a965-f4e9bc99dc5a&entityType=FormatGroup", 
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt7049272",
+            "title": "Above the Clouds",
+            "year": 2018,
+            "imageUrl": "/assets/images/movies/tt7049272.png",
+            "description": "When Charlie discovers her parents have hidden her real father from her, she recruits a homeless guy as her 'responsible adult' and sets off to Scotland on her provisional driving licence to find him.",
+            "imdbUrl": "https://www.imdb.com/title/tt7049272/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=6414ea57-5b98-5f3f-b488-ada13f6f1257&entityType=FormatGroup",
             "hideTitleOverlay": true
         }
     ]
