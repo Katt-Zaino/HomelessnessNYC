@@ -1,6 +1,16 @@
 {
     "movies": [
         {
+            "id": "tt2452484",
+            "title": "Lucky",
+            "year": 2014,
+            "imageUrl": "/assets/images/movies/tt2452484.png",
+            "description": "Spanning more than five years on the streets of New York City, this intimate story of survival follows Lucky Torres, a homeless mother masked in tattoos who longs to rise from a life of darkness.",
+            "imdbUrl": "https://www.imdb.com/title/tt2452484/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=739418d1-3978-53c0-870c-870f5121dfc2&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
             "id": "tt3072876",
             "title": "Queen Mimi",
             "year": 2015,
@@ -818,6 +828,16 @@
             "description": "When Charlie discovers her parents have hidden her real father from her, she recruits a homeless guy as her 'responsible adult' and sets off to Scotland on her provisional driving licence to find him.",
             "imdbUrl": "https://www.imdb.com/title/tt7049272/",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=6414ea57-5b98-5f3f-b488-ada13f6f1257&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt8332802",
+            "title": "Amulet",
+            "year": 2020,
+            "imageUrl": "/assets/images/movies/tt8332802.png",
+            "description": "Amulet follows Tomaz, a former soldier who is left homeless after an accident and takes refuge in the decaying home of Magda, a lonely young woman in desperate need of help as she cares for her ailing mother. As he gets closer to Magda, Tomaz notices strange and unexplainable phenomena.",
+            "imdbUrl": "https://www.imdb.com/title/tt8332802/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=ff08f7ec-c535-5081-bfc4-561f797f6dd6&entityType=FormatGroup",
             "hideTitleOverlay": true
         }
     ]
