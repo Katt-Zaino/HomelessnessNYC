@@ -1,6 +1,26 @@
 {
     "movies": [
         {
+            "id": "tt3230660",
+            "title": "Cardboard Boxer",
+            "year": 2016,
+            "imageUrl": "/assets/images/movies/tt3230660.png",
+            "description": "Gentle and broken, a homeless man is coerced by two teens to fight other men on video for cash but soon finds comfort in an unlikely friend and the lost diary of a young girl.",
+            "imdbUrl": "https://www.imdb.com/title/tt3230660/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=25bbd871-5ff6-5c04-b12c-6b9f3dfb076d&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
+            "id": "tt1230168",
+            "title": "Same Kind of Different as Me",
+            "year": 2017,
+            "imageUrl": "/assets/images/movies/tt1230168.png",
+            "description": "Ron Hall is on a quest to save his marriage to his wife Deborah. In the midst of his journey, he befriends a homeless man who alters their lives forever.",
+            "imdbUrl": "https://www.imdb.com/title/tt1230168/",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=a7566884-adc0-5d79-a74f-dbc505594168&entityType=FormatGroup",
+            "hideTitleOverlay": true
+        },
+        {
             "id": "tt1201576",
             "title": "Kassim the Dream",
             "year": 2008,
@@ -95,7 +115,7 @@
             "title": "Game Girls",
             "year": 2018,
             "imageUrl": "/assets/images/movies/tt7942696.png",
-            "description": "Game Girls follows Teri and her girlfriend Tiahna as they navigate their relationship through the chaotic world of Los Angeles' Skid Row, aka the 'homeless capital of the U.S.'",
+            "description": "Game Girls follows Teri and her girlfriend Tiahna as they navigate their relationship through the chaotic world of Los Angeles's Skid Row, aka the 'homeless capital of the U.S.'",
             "imdbUrl": "https://www.imdb.com/title/tt7942696/",
             "libraryUrl": "https://borrow.nypl.org/search/card?id=10606fd0-6101-5d7f-b008-ac9b83e4053d&entityType=FormatGroup",
             "hideTitleOverlay": true
