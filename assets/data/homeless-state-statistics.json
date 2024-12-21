@@ -1,0 +1,82 @@
+{
+    "homelessStatistics": {
+        "title": "State Homeless Population Rankings",
+        "data": [
+            {
+                "rank": 1,
+                "state": "California",
+                "estimatedHomelessPopulation": "~161,000"
+            },
+            {
+                "rank": 2,
+                "state": "New York",
+                "estimatedHomelessPopulation": "~92,000"
+            },
+            {
+                "rank": 3,
+                "state": "Florida",
+                "estimatedHomelessPopulation": "~28,000"
+            },
+            {
+                "rank": 4,
+                "state": "Texas",
+                "estimatedHomelessPopulation": "~27,000"
+            },
+            {
+                "rank": 5,
+                "state": "Washington",
+                "estimatedHomelessPopulation": "~22,000"
+            },
+            {
+                "rank": 6,
+                "state": "Massachusetts",
+                "estimatedHomelessPopulation": "~18,000"
+            },
+            {
+                "rank": 7,
+                "state": "Oregon",
+                "estimatedHomelessPopulation": "~15,000"
+            },
+            {
+                "rank": 8,
+                "state": "Pennsylvania",
+                "estimatedHomelessPopulation": "~13,000"
+            },
+            {
+                "rank": 9,
+                "state": "Arizona",
+                "estimatedHomelessPopulation": "~11,000"
+            },
+            {
+                "rank": 10,
+                "state": "Georgia",
+                "estimatedHomelessPopulation": "~10,000"
+            },
+            {
+                "rank": 11,
+                "state": "Illinois",
+                "estimatedHomelessPopulation": "~10,000"
+            },
+            {
+                "rank": 12,
+                "state": "Ohio",
+                "estimatedHomelessPopulation": "~10,000"
+            },
+            {
+                "rank": 13,
+                "state": "Colorado",
+                "estimatedHomelessPopulation": "~9,800"
+            },
+            {
+                "rank": 14,
+                "state": "North Carolina",
+                "estimatedHomelessPopulation": "~9,000"
+            },
+            {
+                "rank": 15,
+                "state": "Michigan",
+                "estimatedHomelessPopulation": "~8,300"
+            }
+        ]
+    }
+} 
