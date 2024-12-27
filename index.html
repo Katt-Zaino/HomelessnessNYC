@@ -373,6 +373,44 @@
                 padding: 8px 10px;
             }
         }
+
+        .insights-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .insight-card {
+            background-color: #111;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .insight-card h3 {
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .insight-card p {
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+
+        .insight-data {
+            min-height: 200px;
+            background-color: #1a1a1a;
+            border-radius: 4px;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .insights-container {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -383,6 +421,7 @@
             <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
             <ul id="nav-menu">
                 <li><a href="#statistics">Statistics</a></li>
+                <li><a href="#data-insights">Data Insights</a></li>
                 <li><a href="#movies">Movies</a></li>
                 <li><a href="#books">Books</a></li>
                 <li><a href="#photographs">Photographs</a></li>
@@ -420,6 +459,33 @@
                     <!-- Data will be populated by JavaScript -->
                 </tbody>
             </table>
+        </div>
+    </section>
+
+    <section id="data-insights">
+        <h2>Data Insights</h2>
+        <div class="insights-container">
+            <div class="insight-card">
+                <h3>Youth Homelessness</h3>
+                <p>Analysis of youth homelessness trends and statistics in NYC.</p>
+                <div class="insight-data">
+                    <!-- Data visualizations will go here -->
+                </div>
+            </div>
+            <div class="insight-card">
+                <h3>Geographic Distribution</h3>
+                <p>Distribution of homeless population across NYC boroughs.</p>
+                <div class="insight-data">
+                    <!-- Data visualizations will go here -->
+                </div>
+            </div>
+            <div class="insight-card">
+                <h3>Historical Trends</h3>
+                <p>Changes in homeless population over the past decade.</p>
+                <div class="insight-data">
+                    <!-- Data visualizations will go here -->
+                </div>
+            </div>
         </div>
     </section>
 
