@@ -411,6 +411,114 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        .insights-text-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .insight-text {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 30px;
+        }
+
+        .insight-text:last-child {
+            border-bottom: none;
+        }
+
+        .insight-text h3 {
+            color: #fff;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .insight-text ul {
+            color: #ccc;
+            line-height: 1.8;
+            font-size: 1.1em;
+            padding-left: 25px;
+        }
+
+        .insight-text li {
+            margin-bottom: 10px;
+        }
+
+        .insight-text li:last-child {
+            margin-bottom: 0;
+        }
+
+        .interview-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            margin-bottom: 30px;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .interview-text {
+            background-color: #111;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .interview-text h3 {
+            color: #fff;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .interview-date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .interview-description {
+            color: #ccc;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .interview-highlights h4 {
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .interview-highlights ul {
+            color: #ccc;
+            padding-left: 20px;
+        }
+
+        .interview-highlights li {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .interview-container {
+                padding: 10px;
+            }
+            
+            .interview-text {
+                padding: 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -422,6 +530,7 @@
             <ul id="nav-menu">
                 <li><a href="#statistics">Statistics</a></li>
                 <li><a href="#data-insights">Data Insights</a></li>
+                <li><a href="#interviews">Interviews</a></li>
                 <li><a href="#movies">Movies</a></li>
                 <li><a href="#books">Books</a></li>
                 <li><a href="#photographs">Photographs</a></li>
@@ -464,26 +573,85 @@
 
     <section id="data-insights">
         <h2>Data Insights</h2>
-        <div class="insights-container">
-            <div class="insight-card">
-                <h3>Youth Homelessness</h3>
-                <p>Analysis of youth homelessness trends and statistics in NYC.</p>
-                <div class="insight-data">
-                    <!-- Data visualizations will go here -->
-                </div>
+        <div class="insights-text-container">
+            <div class="insight-text">
+                <h3>NYC Shelter System Overview</h3>
+                <ul>
+                    <li>As of 2023, over 93,000 people sleep in NYC's municipal shelter system each night</li>
+                    <li>The shelter population has increased by 42% since 2022</li>
+                    <li>Families with children make up nearly 60% of the homeless shelter population</li>
+                    <li>Average length of stay in shelters has increased to 509 days for families with children</li>
+                </ul>
             </div>
-            <div class="insight-card">
-                <h3>Geographic Distribution</h3>
-                <p>Distribution of homeless population across NYC boroughs.</p>
-                <div class="insight-data">
-                    <!-- Data visualizations will go here -->
-                </div>
+
+            <div class="insight-text">
+                <h3>National Context</h3>
+                <ul>
+                    <li>Homelessness increased by 12% nationwide between 2022 and 2023</li>
+                    <li>582,462 people were experiencing homelessness on a single night in January 2023</li>
+                    <li>California, New York, and Florida have the highest rates of homelessness</li>
+                    <li>Veterans represent about 7% of the total homeless population</li>
+                </ul>
             </div>
-            <div class="insight-card">
-                <h3>Historical Trends</h3>
-                <p>Changes in homeless population over the past decade.</p>
-                <div class="insight-data">
-                    <!-- Data visualizations will go here -->
+
+            <div class="insight-text">
+                <h3>Economic Factors</h3>
+                <ul>
+                    <li>Rising housing costs have outpaced wage growth in most major cities</li>
+                    <li>Nearly half of all New Yorkers are rent-burdened, paying more than 30% of their income on rent</li>
+                    <li>The median rent in NYC has increased by 18% since 2021</li>
+                    <li>Eviction rates have returned to pre-pandemic levels in many areas</li>
+                </ul>
+            </div>
+
+            <div class="insight-text">
+                <h3>Demographic Trends</h3>
+                <ul>
+                    <li>People of color are disproportionately affected, representing over 85% of homeless New Yorkers</li>
+                    <li>Single adults represent approximately 32% of the homeless shelter population</li>
+                    <li>The number of senior citizens (aged 65+) in shelters has increased by 60% since 2014</li>
+                    <li>LGBTQ+ youth are 120% more likely to experience homelessness</li>
+                </ul>
+            </div>
+
+            <div class="insight-text">
+                <h3>System Challenges</h3>
+                <ul>
+                    <li>The average cost per year to shelter a homeless family is $70,000</li>
+                    <li>Only 3% of shelter residents are able to access permanent affordable housing</li>
+                    <li>The city spends over $3 billion annually on homeless services</li>
+                    <li>Shelter capacity has struggled to meet the increasing demand</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="interviews">
+        <h2>Featured Interview</h2>
+        <div class="interview-container">
+            <div class="video-wrapper">
+                <iframe 
+                    width="100%" 
+                    height="500" 
+                    src="YOUR_VIDEO_URL_HERE" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="interview-text">
+                <h3>Title of Interview</h3>
+                <p class="interview-date">Recorded: [Date]</p>
+                <div class="interview-description">
+                    <p>Description of the interview or documentary goes here. This can include context about the subject, key points discussed, and its significance to understanding homelessness in NYC.</p>
+                </div>
+                <div class="interview-highlights">
+                    <h4>Key Points:</h4>
+                    <ul>
+                        <li>Important point 1 from the interview</li>
+                        <li>Important point 2 from the interview</li>
+                        <li>Important point 3 from the interview</li>
+                    </ul>
                 </div>
             </div>
         </div>
