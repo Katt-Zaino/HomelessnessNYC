@@ -327,6 +327,52 @@
         .movie-card.hidden {
             display: none;
         }
+
+        .statistics-container {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        .statistics-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #1a1a1a;
+            color: #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .statistics-table th,
+        .statistics-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        .statistics-table th {
+            background-color: #2a2a2a;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .statistics-table tr:hover {
+            background-color: #222;
+        }
+
+        .statistics-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        @media (max-width: 768px) {
+            .statistics-table {
+                font-size: 14px;
+            }
+
+            .statistics-table th,
+            .statistics-table td {
+                padding: 8px 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -336,6 +382,7 @@
             <div class="logo"><a href="#top">Homelessness NYC</a></div>
             <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
             <ul id="nav-menu">
+                <li><a href="#statistics">Statistics</a></li>
                 <li><a href="#movies">Movies</a></li>
                 <li><a href="#books">Books</a></li>
                 <li><a href="#shelters">Shelter Locations</a></li>
@@ -360,6 +407,24 @@
     </header>
 
     <!-- Content Sections -->
+    <section id="statistics">
+        <h2>Homeless Population by State</h2>
+        <div class="statistics-container">
+            <table id="homeless-statistics" class="statistics-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>State</th>
+                        <th>Estimated Homeless Population</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
     <section id="movies" class="movie-section">
         <h2>Movies</h2>
         <div class="year-filter" id="yearFilter">
@@ -705,6 +770,38 @@
 
         // Add this to your existing JavaScript
         initializeBookScrollButtons();
+
+        // Add this function to load the statistics
+        async function loadStatistics() {
+            try {
+                const response = await fetch('/assets/data/homeless-state-statistics.json');
+                const data = await response.json();
+                
+                const tbody = document.querySelector('#homeless-statistics tbody');
+                tbody.innerHTML = ''; // Clear existing content
+                
+                data.homelessStatistics.data.forEach(item => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${item.rank}</td>
+                        <td>${item.state}</td>
+                        <td>${item.estimatedHomelessPopulation}</td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Error loading statistics:', error);
+                document.querySelector('#homeless-statistics tbody').innerHTML = 
+                    '<tr><td colspan="3">Error loading statistics. Please try again later.</td></tr>';
+            }
+        }
+
+        // Add this to your existing DOMContentLoaded event listener
+        document.addEventListener('DOMContentLoaded', () => {
+            loadStatistics();
+            loadMovies();
+            // ... any other existing load functions ...
+        });
     </script>
 </body>
 </html>
