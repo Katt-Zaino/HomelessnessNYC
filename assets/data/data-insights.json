@@ -1,0 +1,54 @@
+{
+    "insights": [
+        {
+            "id": "youth-stats",
+            "title": "Youth Homelessness Statistics",
+            "year": 2023,
+            "imageUrl": "/assets/images/insights/youth-stats.png",
+            "description": "In New York City, approximately 1 in 10 public school students experienced homelessness during the 2022-23 school year. This amounts to nearly 104,000 students.",
+            "sourceUrl": "https://www.advocatesforchildren.org/node/1403",
+            "dataUrl": "https://www.advocatesforchildren.org/sites/default/files/library/nyc_student_homelessness_23.pdf",
+            "hideTitleOverlay": false
+        },
+        {
+            "id": "borough-distribution",
+            "title": "Geographic Distribution",
+            "year": 2023,
+            "imageUrl": "/assets/images/insights/borough-stats.png",
+            "description": "The Bronx has the highest rate of student homelessness at 1 in 7 students, followed by Manhattan (1 in 8), Brooklyn (1 in 11), Queens (1 in 14), and Staten Island (1 in 25).",
+            "sourceUrl": "https://www.advocatesforchildren.org/node/1403",
+            "dataUrl": "https://www.advocatesforchildren.org/sites/default/files/library/nyc_student_homelessness_23.pdf",
+            "hideTitleOverlay": false
+        },
+        {
+            "id": "historical-trends",
+            "title": "Historical Trends",
+            "year": 2023,
+            "imageUrl": "/assets/images/insights/historical-trends.png",
+            "description": "The number of homeless students in NYC has increased by 71% since 2010. Over 200,000 students have experienced homelessness over the past five years.",
+            "sourceUrl": "https://www.advocatesforchildren.org/node/1403",
+            "dataUrl": "https://www.advocatesforchildren.org/sites/default/files/library/nyc_student_homelessness_23.pdf",
+            "hideTitleOverlay": false
+        },
+        {
+            "id": "shelter-system",
+            "title": "Shelter System Impact",
+            "year": 2023,
+            "imageUrl": "/assets/images/insights/shelter-stats.png",
+            "description": "More than 30,000 students lived in NYC shelters during the 2022-23 school year. Additionally, about 28,000 students lived doubled-up in temporary housing situations.",
+            "sourceUrl": "https://www.advocatesforchildren.org/node/1403",
+            "dataUrl": "https://www.advocatesforchildren.org/sites/default/files/library/nyc_student_homelessness_23.pdf",
+            "hideTitleOverlay": false
+        },
+        {
+            "id": "education-impact",
+            "title": "Educational Impact",
+            "year": 2023,
+            "imageUrl": "/assets/images/insights/education-stats.png",
+            "description": "Students experiencing homelessness have lower graduation rates and higher chronic absenteeism rates compared to their permanently housed peers.",
+            "sourceUrl": "https://www.advocatesforchildren.org/node/1403",
+            "dataUrl": "https://www.advocatesforchildren.org/sites/default/files/library/nyc_student_homelessness_23.pdf",
+            "hideTitleOverlay": false
+        }
+    ]
+} 
