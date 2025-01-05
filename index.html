@@ -527,6 +527,28 @@
             font-size: 1.1em;
             color: #fff;
         }
+
+        .graph-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .graph-container h3 {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .data-graph {
+            width: 100%;
+            height: auto;
+            max-width: 700px;
+            display: block;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
@@ -560,9 +582,10 @@
     <section id="data-tables">
         <h2>Data Tables</h2>
         <div class="data-tables-container">
-            <table class="statistics-table">
-                <!-- Data tables will be added here -->
-            </table>
+            <div class="graph-container">
+                <h3>Veterans Experiencing Homelessness</h3>
+                <img src="/assets/images/veterans-graph.png" alt="Veterans experiencing homelessness graph showing decline from 65.5k in 2011 to 35.5k in 2023" class="data-graph">
+            </div>
         </div>
     </section>
 
