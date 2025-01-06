@@ -578,6 +578,39 @@
             display: block;
             margin: 0 auto;
         }
+
+        .state-data-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            overflow-x: auto;
+        }
+
+        .state-data-container .statistics-table {
+            min-width: 800px;
+            font-size: 0.9em;
+        }
+
+        .state-data-container .statistics-table td,
+        .state-data-container .statistics-table th {
+            padding: 8px 12px;
+            text-align: center;
+        }
+
+        .state-data-container .statistics-table td:first-child {
+            text-align: left;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .state-data-container {
+                padding: 10px;
+            }
+            
+            .state-data-container .statistics-table {
+                font-size: 0.8em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -641,6 +674,36 @@
         </div>
         <div class="statistics-summary">
             <p>California and New York have the highest number of homeless people in the United States.</p>
+        </div>
+    </section>
+
+    <section id="state-data">
+        <h2>State-by-State Homeless Population Data (2023)</h2>
+        <div class="state-data-container">
+            <table class="statistics-table">
+                <thead>
+                    <tr>
+                        <th>State</th>
+                        <th>Total Homeless Population (2023)</th>
+                        <th>Percent Change Since 2022</th>
+                        <th>Percent Under 18</th>
+                        <th>Percent Veterans</th>
+                        <th>Percent Chronic Homelessness</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- First few states as example -->
+                    <tr>
+                        <td>Alaska</td>
+                        <td>2,614</td>
+                        <td>13%</td>
+                        <td>14%</td>
+                        <td>5%</td>
+                        <td>30%</td>
+                    </tr>
+                    <!-- Add remaining states here -->
+                </tbody>
+            </table>
         </div>
     </section>
 
