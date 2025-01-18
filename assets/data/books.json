@@ -15,6 +15,14 @@
             "imageUrl": "/assets/images/books/the_other_side_of_the_river.jpg",
             "libraryBookUrl": "https://www.imdb.com/title/tt1234567/",
             "libraryUrl": "https://www.examplelibrary.com/the-other-side-of-the-river"
+        },
+        {
+            "title": "Rachel and Her Children: Homeless Families in America",
+            "year": 1988,
+            "description": "A powerful and moving study of homeless families in America, focusing on the devastating impact of homelessness on children and their parents.",
+            "imageUrl": "/assets/images/books/rachel_and_her_children.jpg",
+            "libraryBookUrl": "https://browse.nypl.org/iii/encore/record/C__Rb11892980",
+            "libraryUrl": "https://browse.nypl.org/iii/encore/record/C__Rb11892980"
         }
     ]
 }
