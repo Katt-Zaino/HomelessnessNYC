@@ -14,15 +14,15 @@
             "description": "A gripping account of the lives of homeless people in America, exploring their struggles and resilience.",
             "imageUrl": "/assets/images/books/the_other_side_of_the_river.jpg",
             "libraryBookUrl": "https://www.imdb.com/title/tt1234567/",
-            "libraryUrl": "https://www.examplelibrary.com/the-other-side-of-the-river"
+            "libraryUrl": "https://www.examplelibrary.com/the-other-side-of-the-river"  
         },
         {
-            "title": "Rachel and Her Children: Homeless Families in America",
-            "year": 1988,
-            "description": "A powerful and moving study of homeless families in America, focusing on the devastating impact of homelessness on children and their parents.",
-            "imageUrl": "/assets/images/books/rachel_and_her_children.jpg",
-            "libraryBookUrl": "https://browse.nypl.org/iii/encore/record/C__Rb11892980",
-            "libraryUrl": "https://browse.nypl.org/iii/encore/record/C__Rb11892980"
+            "title": "The American Way of Poverty",
+            "year": 2013,
+            "description": "How the Other Half Still Lives: A comprehensive look at poverty in America, examining both the reality of poverty and potential solutions to this persistent problem.",
+            "imageUrl": "/assets/images/books/american_way_of_poverty.jpg",
+            "libraryBookUrl": "https://borrow.nypl.org/search/card?id=8105337e-45fb-59b7-961c-a1b78acc8469&entityType=FormatGroup",
+            "libraryUrl": "https://borrow.nypl.org/search/card?id=8105337e-45fb-59b7-961c-a1b78acc8469&entityType=FormatGroup"
         }
     ]
 }

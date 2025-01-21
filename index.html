@@ -462,12 +462,13 @@
             margin-bottom: 30px;
         }
 
-        .video-wrapper iframe {
+        .video-wrapper video {
+            width: 100%;
+            height: 100%;
             position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
-            height: 100%;
+            object-fit: cover;
             border-radius: 8px;
         }
 
@@ -806,27 +807,27 @@
         <h2>Featured Interview</h2>
         <div class="interview-container">
             <div class="video-wrapper">
-                <iframe 
+                <video 
                     width="100%" 
                     height="500" 
-                    src="YOUR_VIDEO_URL_HERE" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
+                    controls
+                    preload="auto">
+                    <source src="/assets/videos/output.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div class="interview-text">
-                <h3>Title of Interview</h3>
-                <p class="interview-date">Recorded: [Date]</p>
+                <h3>Homeless Youth in NYC</h3>
+                <p class="interview-date">Recorded: April 2024</p>
                 <div class="interview-description">
-                    <p>Description of the interview or documentary goes here. This can include context about the subject, key points discussed, and its significance to understanding homelessness in NYC.</p>
+                    <p>An in-depth look at the challenges faced by homeless youth in New York City, featuring interviews with both young people experiencing homelessness and the organizations working to support them.</p>
                 </div>
                 <div class="interview-highlights">
                     <h4>Key Points:</h4>
                     <ul>
-                        <li>Important point 1 from the interview</li>
-                        <li>Important point 2 from the interview</li>
-                        <li>Important point 3 from the interview</li>
+                        <li>Personal stories from youth experiencing homelessness</li>
+                        <li>Impact of support services and community organizations</li>
+                        <li>Challenges and barriers faced by homeless youth</li>
                     </ul>
                 </div>
             </div>
