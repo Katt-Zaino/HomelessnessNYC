@@ -1,0 +1,87 @@
+{
+    "title": "What Drives Homelessness in the United States?",
+    "description": "Below is a “suspects board” of possible root causes. Each percentage shows how many people in the national homeless count are linked to that factor—housing, income, health, and more. By comparing these shares with how often the same issues appear in the overall U.S. population, patterns emerge that hint at which suspects matter most. The table offers evidence to test your own conclusions. Unless noted otherwise, every number represents people.",
+    "headers": [
+      "#",
+      "factor",
+      "% of everyone who’s homeless",
+      "Why it ranks here (key stat)",
+      "Snapshot (extra detail)",
+      "In Simple Words",
+      "Sources"
+    ],
+    "rows": [
+      {
+        "rank": 1,
+        "factor": "Affordable-housing gap",
+        "percent_of_homeless": 100,
+        "ranking_support": "U.S. is short 7.1 million low-cost rentals; only 35 affordable homes for every 100 extremely-low-income renter households.",
+        "snapshot": "65 % of ELI renters cannot find an affordable unit.",
+        "in_simple_words": "Picture 100 families hunting for cheap apartments, but only 35 are available. Two-thirds never find a place, so some end up without a home.",
+        "sources": [
+          "https://nlihc.org/gap",
+          "https://nlihc.org/sites/default/files/gap/2025/gap-report_2025_english.pdf"
+        ]
+      },
+      {
+        "rank": 2,
+        "factor": "Severe rent burden",
+        "percent_of_homeless": null,
+        "ranking_support": "75 % of ELI renters pay over half their income for rent, compared with ≈ 24 % of all renters.",
+        "snapshot": "Three-quarters of very-poor renters are rent-stressed.",
+        "in_simple_words": "Think of a family of four earning $2,600 a month. A basic two-bedroom costs $1,670—about 64 % of their income. That leaves $930, but healthy food for a month costs $976, so they’re already $46 short before gas, clothes, or school supplies. When rent eats the paycheck, homelessness is one bad break away.",
+        "sources": [
+          "https://nlihc.org/gap",
+          "https://nlihc.org/sites/default/files/gap/2025/gap-report_2025_english.pdf"
+        ]
+      },
+      {
+        "rank": 3,
+        "factor": "No job income",
+        "percent_of_homeless": 47,
+        "ranking_support": "≈ 47 % of adults in shelters report no cash income; national unemployment is 4.2 %.",
+        "snapshot": "Nearly half of sheltered adults earn nothing.",
+        "in_simple_words": "With no paycheck, paying any rent is impossible.",
+        "sources": [
+          "https://www.huduser.gov/portal/sites/default/files/pdf/AHAR-Part-2-2022.pdf",
+          "https://www.bls.gov/"
+        ]
+      },
+      {
+        "rank": 4,
+        "factor": "Serious mental illness",
+        "percent_of_homeless": 18.4,
+        "ranking_support": "18.4 % of homeless people report serious mental illness, triple the 5.7 % rate among U.S. adults.",
+        "snapshot": "About 1 in 5 homeless adults battles serious mental illness.",
+        "in_simple_words": "Because some people’s illnesses make it hard to take meds, pay bills, or even lock the door, a low-rent apartment isn’t enough. They often need a live-in mental-health program or housing that comes with 24/7 medical support to stay safe and stable.",
+        "sources": [
+          "https://endhomelessness.org/homelessness-in-america/what-causes-homelessness/health/"
+        ]
+      },
+      {
+        "rank": 5,
+        "factor": "Substance-use disorder",
+        "percent_of_homeless": 14.5,
+        "ranking_support": "14.5 % of the total homeless population—and ≈ 24 % of unsheltered people—have chronic substance-use disorder; national rate is 17.1 %.",
+        "snapshot": "Roughly 1 in 7 homeless people struggles with addiction.",
+        "in_simple_words": "Addiction can hijack every paycheck and decision. Without detox programs, rehab, and ongoing support, it’s nearly impossible to save money for rent or keep a job, so people stay stuck on the street.",
+        "sources": [
+          "https://endhomelessness.org/homelessness-in-america/what-causes-homelessness/health/"
+        ]
+      },
+      {
+        "rank": 6,
+        "factor": "Chronic homelessness",
+        "percent_of_homeless": 24,
+        "ranking_support": "154,313 of 653,104 people (≈ 24 %) were chronically homeless in the 2023 PIT; HUD defines chronic homelessness as 12 months straight—or 4+ times in 3 years totaling 12 months—PLUS a disability.",
+        "snapshot": "1 in 4 homeless people meets HUD’s “chronic” rule.",
+        "in_simple_words": "They live in shelters or outdoors, stay homeless a full year (or many times adding up to a year), and have a disability—so they need long-term supportive housing.",
+        "sources": [
+          "https://endhomelessness.org/homelessness-in-america/homelessness-statistics/state-of-homelessness/",
+          "https://files.hudexchange.info/reports/published/CoC_PopSub_NatlTerrDC_2023.pdf",
+          "https://www.hud.gov/program_offices/comm_planning/chronic_homelessness"
+        ]
+      }
+    ]
+  }
+  

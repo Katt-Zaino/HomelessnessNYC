@@ -1,0 +1,109 @@
+{
+  "title": "How We Ended Up With 120,000 Homeless in NYC: A Look at the History?",
+  "description": "This table traces the growth of New York City's homeless population from the early 1980s to 2025. Each major jump reflects shifts in policy, economics, and social services. Understanding these moments helps explain how homelessness grew over decades — and why short-term fixes often failed.",
+  "headers": [
+    "year",
+    "approximate_population",
+    "percent_change_from_last",
+    "key_factors",
+    "sources"
+  ],
+  "rows": [
+    {
+      "year": 1983,
+      "approximate_population": 4500,
+      "percent_change_from_last": null,
+      "key_factors": "Right to shelter implemented. After the Callahan v. Carey consent decree, NYC guaranteed shelter for homeless men. This made NYC the only city with a legal right to shelter, revealing hidden local homelessness and attracting homeless people from other areas.",
+      "sources": [
+        {
+          "text": "Coalition for the Homeless – The Callahan Legacy",
+          "url": "https://www.coalitionforthehomeless.org/our-programs/advocacy/legal-victories/the-callahan-legacy-callahan-v-carey-and-the-legal-right-to-shelter/"
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "approximate_population": 24000,
+      "percent_change_from_last": 433,
+      "key_factors": "Explosive growth. A national recession, federal service cuts, and New York’s shelter guarantee combined to expand the homeless population over 5× in just 7 years.",
+      "sources": [
+        {
+          "text": "Coalition for the Homeless – Basic Facts About Homelessness",
+          "url": "https://www.coalitionforthehomeless.org/basic-facts-about-homelessness-new-york-city/"
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "approximate_population": 30000,
+      "percent_change_from_last": 25,
+      "key_factors": "Stabilization. Rental voucher programs (like Section 8) and early Housing First pilots slowed the growth. Some city focus shifted to homelessness prevention.",
+      "sources": [
+        {
+          "text": "HUD AHAR Reports 2000–2001",
+          "url": "https://www.hudexchange.info/homelessness-assistance/ahar/"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "approximate_population": 38000,
+      "percent_change_from_last": 27,
+      "key_factors": "Impact of the Great Recession. Economic collapse, foreclosures, and rising unemployment pushed more families and individuals into homelessness.",
+      "sources": [
+        {
+          "text": "Coalition for the Homeless – Reports on Recession Impacts",
+          "url": "https://www.coalitionforthehomeless.org/state-of-the-homeless-2010/"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "approximate_population": 53000,
+      "percent_change_from_last": 39,
+      "key_factors": "Transition to De Blasio; housing crisis worsens. Bloomberg ended rental assistance (Advantage program). De Blasio expanded shelters but did not increase deeply affordable housing fast enough. Rents soared beyond reach of low-income families.",
+      "sources": [
+        {
+          "text": "NYC IBO Report – Advantage Program Closure",
+          "url": "https://ibo.nyc.ny.us/iboreports/advantageprogram.pdf"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "approximate_population": 58000,
+      "percent_change_from_last": 9,
+      "key_factors": "Pre-pandemic pressures. Rising rents and stagnant wages caused a steady, slower increase in shelter stays, mostly among families with children.",
+      "sources": [
+        {
+          "text": "Coalition for the Homeless – Basic Facts 2019",
+          "url": "https://www.coalitionforthehomeless.org/basic-facts-about-homelessness-new-york-city/"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "approximate_population": 48000,
+      "percent_change_from_last": -17,
+      "key_factors": "Pandemic-era policies. Eviction moratoriums and emergency rental aid temporarily reduced the shelter population significantly — a rare major decline.",
+      "sources": [
+        {
+          "text": "NYC DHS Shelter Census Reports",
+          "url": "https://data.cityofnewyork.us/Social-Services/DHS-Daily-Shelter-Population/2mxf-kfqd"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "approximate_population": 120000,
+      "percent_change_from_last": 150,
+      "key_factors": "Migrant surge and housing market collapse. Record arrivals of asylum seekers combined with rent increases and loss of pandemic protections, overwhelming the shelter system to its highest recorded population.",
+      "sources": [
+        {
+          "text": "NYC Comptroller – Asylum Seeker Reports",
+          "url": "https://comptroller.nyc.gov/services/for-the-public/accounting-for-asylum-seeker-services/asylum-seeker-census/"
+        }
+      ]
+    }
+  ]
+}

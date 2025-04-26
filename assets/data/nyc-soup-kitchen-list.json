@@ -1,0 +1,106 @@
+{
+    "title": "Find a Soup Kitchen Near You",
+    "description": "These soup kitchens across New York City need volunteers and support. Click on a volunteer link to get involved directly. Every hour you give can change a life.",
+    "headers": [
+      "name",
+      "borough",
+      "address",
+      "phone",
+      "volunteer_link",
+      "days_open",
+      "notes"
+    ],
+    "rows": [
+      {
+        "name": "Bowery Mission",
+        "borough": "Manhattan",
+        "address": "227 Bowery, New York, NY 10002",
+        "phone": "(212) 674-3456",
+        "volunteer_link": "https://www.bowery.org/volunteer/",
+        "days_open": "Monday–Saturday",
+        "notes": "Morning, afternoon, and dinner shifts available."
+      },
+      {
+        "name": "Holy Apostles Soup Kitchen",
+        "borough": "Manhattan",
+        "address": "296 9th Ave, New York, NY 10001",
+        "phone": "(212) 924-0167",
+        "volunteer_link": "https://holyapostlesnyc.org/volunteer/",
+        "days_open": "Monday–Friday",
+        "notes": "Largest soup kitchen in NYC; family volunteering welcome."
+      },
+      {
+        "name": "New York Common Pantry",
+        "borough": "Manhattan",
+        "address": "8 East 109th Street, New York, NY 10029",
+        "phone": "(917) 720-9700",
+        "volunteer_link": "https://nycommonpantry.org/volunteer/",
+        "days_open": "Monday–Saturday",
+        "notes": "Food pantry and meal services; group volunteers accepted."
+      },
+      {
+        "name": "The Father's Heart Ministries",
+        "borough": "Manhattan",
+        "address": "543-545 East 11th Street, New York, NY 10009",
+        "phone": "(212) 375-1765",
+        "volunteer_link": "https://www.fathersheartnyc.org/volunteer",
+        "days_open": "Saturday",
+        "notes": "Popular for Saturday breakfast service."
+      },
+      {
+        "name": "St. John's Bread and Life",
+        "borough": "Brooklyn",
+        "address": "795 Lexington Avenue, Brooklyn, NY 11221",
+        "phone": "(718) 574-0058",
+        "volunteer_link": "https://breadandlife.org/volunteer/",
+        "days_open": "Monday–Friday",
+        "notes": "Meal and pantry services; great for group volunteering."
+      },
+      {
+        "name": "Masbia Soup Kitchen Network – Flatbush",
+        "borough": "Brooklyn",
+        "address": "1372 Coney Island Avenue, Brooklyn, NY 11230",
+        "phone": "(718) 972-4446",
+        "volunteer_link": "https://www.masbia.org/volunteer",
+        "days_open": "Sunday–Friday",
+        "notes": "Kosher meals; flexible volunteer shifts."
+      },
+      {
+        "name": "Masbia Soup Kitchen Network – Boro Park",
+        "borough": "Brooklyn",
+        "address": "5402 New Utrecht Avenue, Brooklyn, NY 11219",
+        "phone": "(718) 972-4446",
+        "volunteer_link": "https://www.masbia.org/volunteer",
+        "days_open": "Sunday–Friday",
+        "notes": "Evening meals; pantry and takeout options."
+      },
+      {
+        "name": "Part of the Solution (POTS)",
+        "borough": "Bronx",
+        "address": "2759 Webster Avenue, Bronx, NY 10458",
+        "phone": "(718) 220-4892",
+        "volunteer_link": "https://potsbronx.org/volunteer/",
+        "days_open": "Monday–Saturday",
+        "notes": "Meals plus full support services like legal aid."
+      },
+      {
+        "name": "Project Hospitality",
+        "borough": "Staten Island",
+        "address": "514 Bay Street, Staten Island, NY 10304",
+        "phone": "(718) 448-1544",
+        "volunteer_link": "https://www.projecthospitality.org/volunteer",
+        "days_open": "Daily",
+        "notes": "Serving both shelter residents and the public."
+      },
+      {
+        "name": "Catholic Charities Community Services Soup Kitchen",
+        "borough": "Manhattan",
+        "address": "425 East 104th Street, New York, NY 10029",
+        "phone": "(212) 860-5544",
+        "volunteer_link": "https://catholiccharitiesny.org/volunteer/",
+        "days_open": "Monday–Friday",
+        "notes": "Multiple food programs citywide through Catholic Charities."
+      }
+    ]
+  }
+  

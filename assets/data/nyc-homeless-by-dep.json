@@ -1,0 +1,37 @@
+{
+    "title": "Why is New York City at the Top of the Homelessness Crisis?",
+    "description": "This section starts our deep dive into New York City's homelessness problem. The table below shows the major shelter systems operating in NYC and the number of people they serve. This snapshot helps us see how big the crisis is — and sets the stage for figuring out where the system is overloaded and what solutions are needed.",
+    "headers": [
+      "shelter_system",
+      "approximate_population",
+      "source",
+      "source_url"
+    ],
+    "rows": [
+      {
+        "shelter_system": "Department of Homeless Services (DHS) Shelters",
+        "approximate_population": 85450,
+        "source_text": "NYC DHS Daily Report",
+        "source_url": "https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf"
+      },
+      {
+        "shelter_system": "Humanitarian Emergency Response and Relief Centers (HERRCs)",
+        "approximate_population": 42700,
+        "source_text": "NYC Comptroller's Asylum Seeker Census",
+        "source_url": "https://comptroller.nyc.gov/services/for-the-public/accounting-for-asylum-seeker-services/asylum-seeker-census/"
+      },
+      {
+        "shelter_system": "Runaway and Homeless Youth (RHY) Shelters",
+        "approximate_population": 1127,
+        "source_text": "Chalkbeat: Increase in Homeless Youth Denied Shelter",
+        "source_url": "https://www.chalkbeat.org/newyork/2024/09/16/increase-in-homeless-youth-denied-shelter/"
+      },
+      {
+        "shelter_system": "Domestic Violence (DV) Shelters",
+        "approximate_population": 11223,
+        "source_text": "New Destiny Housing: Testimony on NYC's Domestic Violence Shelters",
+        "source_url": "https://newdestinyhousing.org/testimony-20241009-nycc-gwwge/"
+      }
+    ]
+  }
+  

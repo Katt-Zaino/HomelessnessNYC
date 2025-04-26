@@ -1,0 +1,78 @@
+{
+    "title": "How the Homeless Population in New York City Breaks Down?",
+    "description": "This estimate splits the approximately 120,500 homeless people in NYC into major groups based on health, family status, work ability, and arrival history. These figures help focus solutions toward the right needs. Percentages and numbers are based on HUD, NYC DHS, and Comptroller reports.",
+    "headers": [
+      "category",
+      "estimated_number",
+      "percentage_of_total",
+      "estimation_method",
+      "sources"
+    ],
+    "rows": [
+      {
+        "category": "Chronic Homeless (long-term disabilities)",
+        "estimated_number": 21700,
+        "percentage_of_total": 18,
+        "estimation_method": "Estimated using 18% rate of serious mental illness or chronic disability among homeless individuals.",
+        "sources": [
+          {
+            "text": "HUD PIT Count 2024",
+            "url": "https://www.hudexchange.info/homelessness-assistance/ahar/#2024-reports"
+          },
+          {
+            "text": "Coalition for the Homeless - Basic Facts 2024",
+            "url": "https://www.coalitionforthehomeless.org/basic-facts-about-homelessness-new-york-city/"
+          }
+        ]
+      },
+      {
+        "category": "Families with Children (non-chronic)",
+        "estimated_number": 50000,
+        "percentage_of_total": 40,
+        "estimation_method": "Families account for approximately 40–45% of the NYC sheltered population, based on DHS daily census.",
+        "sources": [
+          {
+            "text": "NYC DHS Daily Report",
+            "url": "https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Single Adults (non-chronic)",
+        "estimated_number": 26000,
+        "percentage_of_total": 22,
+        "estimation_method": "Single adults without major disabilities estimated at around 20–22% based on DHS daily shelter breakdowns.",
+        "sources": [
+          {
+            "text": "NYC DHS Daily Report",
+            "url": "https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Youth (Runaway/Homeless Youth 16–24)",
+        "estimated_number": 2000,
+        "percentage_of_total": 2,
+        "estimation_method": "Homeless youth estimated at around 1–2% of the total based on RHY shelter data.",
+        "sources": [
+          {
+            "text": "NYC DYCD RHY Programs",
+            "url": "https://www.nyc.gov/site/dycd/services/runaway-homeless-youth.page"
+          }
+        ]
+      },
+      {
+        "category": "Recent Migrants (Asylum Seekers)",
+        "estimated_number": 42000,
+        "percentage_of_total": 35,
+        "estimation_method": "Based on Comptroller reports showing ~35% of NYC shelter occupants are migrants housed in HERRC centers.",
+        "sources": [
+          {
+            "text": "NYC Comptroller Asylum Seeker Census",
+            "url": "https://comptroller.nyc.gov/services/for-the-public/accounting-for-asylum-seeker-services/asylum-seeker-census/"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,68 @@
+{
+    "title": "Why $127 B Still Hasn’t Closed the Affordable-Housing Gap?",
+    "description": "To build this table, I downloaded every annual HUD award file (CDBG, HOME, ESG, HOPWA, HTF, etc.) one year at a time, stitched them into a single ​combined_awards.csv dataset, and ran the totals you see here. Considering that tens of billions of federal dollars are at stake, it’s surprising HUD doesn’t offer a one-click, all-years download—manual collection was the only option. The merged dataset (link below) drives the percentages and unit counts shown in the “Reality Check” column, and each row also cites a national report where you can dig deeper.",
+    "headers": [
+      "#",
+      "Reality Check",
+      "Data Message",
+      "sources"
+    ],
+    "rows": [
+      {
+        "rank": 1,
+        "reality_check": "Affordable rentals are disappearing faster than we build them.",
+        "data_message": "The U.S. lost 3.9 million units with rents under $600 (2011–2019) through demolition, condo conversion, or large rent hikes—erasing many new affordable units.",
+        "sources": [
+          {
+            "label": "Harvard JCHS – America’s Rental Housing 2022",
+            "url": "https://www.jchs.harvard.edu/americas-rental-housing-2022"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "reality_check": "Most of the dollars never build a new ELI unit.",
+        "data_message": "Only about 25 % of CDBG spending goes to housing, and an even smaller slice serves extremely-low-income renters; the rest funds sidewalks, parks, and other projects.",
+        "sources": [
+          {
+            "label": "HUD – CDBG Expenditure Profiles",
+            "url": "https://www.hudexchange.info/programs/cdbg/cdbg-expenditure-reports/"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "reality_check": "The programs that do build rental housing are small.",
+        "data_message": "HOME adds ≈ 17 k units per year; HTF adds ≈ 2 k units—tiny next to the 7.1 million-unit shortage.",
+        "sources": [
+          {
+            "label": "HUD – HOME & HTF Congressional Justifications 2025",
+            "url": "https://www.hud.gov/sites/dfiles/CFO/documents/FY2025_CJ_HUD.pdf"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "reality_check": "Each new ELI unit costs six figures.",
+        "data_message": "Recent HOME projects average $150 k–$200 k per unit; at $150 k, the full $127 B would create only ~850 k units—12 % of the need. <span style='color: red;'>(By comparison, if $127 billion were spent on Boxabl Baby Box units at ~$20,000 each, it could create over 6 million homes—covering about 90% of the affordable housing need.)</span>",
+        "sources": [
+          {
+            "label": "HUD – HOME National Production Reports",
+            "url": "https://www.hudexchange.info/programs/home/home-national-production-report/"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "reality_check": "ELI renter households keep growing.",
+        "data_message": "From 2001 to 2021, the number of extremely-low-income renter households rose by about 1.7 million, adding fresh demand every year.",
+        "sources": [
+          {
+            "label": "NLIHC – The Gap 2025",
+            "url": "https://nlihc.org/gap"
+          }
+        ]
+      }
+    ]
+  }
+  

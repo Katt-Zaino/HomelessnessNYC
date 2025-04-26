@@ -460,11 +460,16 @@
             padding-bottom: 56.25%; /* 16:9 aspect ratio */
             height: 0;
             margin-bottom: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            overflow: hidden;  /* Keep the shadow within rounded corners */
+            background: #111;  /* Dark background for video loading state */
         }
 
         .video-wrapper video {
+            display: block;  /* Remove any bottom spacing */
             width: 100%;
-            height: 100%;
+            height: auto;
             position: absolute;
             top: 0;
             left: 0;
@@ -612,6 +617,430 @@
                 font-size: 0.8em;
             }
         }
+
+        /* Update scroll button styles to be more specific */
+        .scroll-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease;
+        }
+
+        /* Make scroll buttons only visible within movie-section */
+        .movie-section {
+            position: relative;
+            padding: 0 40px; /* Make room for navigation buttons */
+        }
+
+        /* Ensure scroll buttons are properly positioned relative to their sections */
+        .movie-section .scroll-btn.left {
+            left: 0;
+        }
+
+        .movie-section .scroll-btn.right {
+            right: 0;
+        }
+
+        /* Hide buttons when no scrolling is possible */
+        .scroll-btn.hidden {
+            display: none;
+        }
+
+        .count {
+            font-size: 0.8em;
+            color: #888;
+        }
+
+        /* Add this new style for the count */
+        .year-btn .count {
+            color: #666;  /* Less pronounced gray color */
+            opacity: 0.8; /* Slightly transparent */
+        }
+
+        /* Update the hover state to maintain the count color */
+        .year-btn:hover .count {
+            color: #888;  /* Slightly lighter gray on hover */
+        }
+
+        /* Keep the count color consistent when button is active */
+        .year-btn.active .count {
+            color: #888;
+        }
+
+        /* Root causes table styles - basic version */
+        #questions {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        #questions .statistics-container {
+            overflow-x: auto;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        #questions .statistics-table {
+            width: 100%;
+            min-width: 800px;
+            table-layout: fixed;
+        }
+
+        /* Column widths */
+        #questions .statistics-table th:nth-child(1) { width: 4%; }  /* # */
+        #questions .statistics-table th:nth-child(2) { width: 15%; } /* factor */
+        #questions .statistics-table th:nth-child(3) { width: 8%; }  /* percent */
+        #questions .statistics-table th:nth-child(4) { width: 28%; } /* ranking support */
+        #questions .statistics-table th:nth-child(5) { width: 15%; } /* snapshot */
+        #questions .statistics-table th:nth-child(6) { width: 30%; } /* in simple words */
+
+        /* Basic responsive adjustments */
+        @media (max-width: 1200px) {
+            #questions .statistics-container {
+                max-width: 90%;
+            }
+        }
+
+        /* Description text styling */
+        #questions .statistics-summary {
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto 30px;
+        }
+
+        /* HUD awards table styles */
+        #hud-awards {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+            margin-bottom: 60px;  /* Add space after HUD awards section */
+        }
+
+        #hud-awards .statistics-container {
+            overflow-x: auto;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        #hud-awards .statistics-table {
+            width: 100%;
+            min-width: 800px;
+            table-layout: fixed;
+        }
+
+        /* Column widths */
+        #hud-awards .statistics-table th:nth-child(1) { width: 5%; }   /* # */
+        #hud-awards .statistics-table th:nth-child(2) { width: 30%; }  /* reality_check */
+        #hud-awards .statistics-table th:nth-child(3) { width: 65%; }  /* data_message with sources */
+
+        /* Update HUD awards description styling */
+        #hud-awards .statistics-summary {
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto 30px;
+            padding: 0;
+        }
+
+        /* Basic responsive adjustments */
+        @media (max-width: 1200px) {
+            #hud-awards .statistics-container,
+            #hud-awards .statistics-summary {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            #hud-awards .statistics-container,
+            #hud-awards .statistics-summary {
+                width: 100%;
+                padding: 0 10px;
+            }
+        }
+
+        /* Add styles for the data source reference */
+        #hud-awards .data-source-reference {
+            max-width: 1200px;
+            width: 90%;
+            margin: 20px auto 0;
+            padding: 0;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        #hud-awards .data-source-reference a {
+            color: #4a9eff;
+            text-decoration: none;
+        }
+
+        #hud-awards .data-source-reference a:hover {
+            text-decoration: underline;
+        }
+
+        /* Include the data source reference in responsive adjustments */
+        @media (max-width: 1200px) {
+            #hud-awards .statistics-container,
+            #hud-awards .statistics-summary,
+            #hud-awards .data-source-reference {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            #hud-awards .statistics-container,
+            #hud-awards .statistics-summary,
+            #hud-awards .data-source-reference {
+                width: 100%;
+                padding: 0 10px;
+            }
+        }
+
+        /* NYC homeless table styles */
+        #nyc-homeless {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        #nyc-homeless .statistics-container {
+            overflow-x: auto;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        #nyc-homeless .statistics-table {
+            width: 100%;
+            min-width: 800px;
+            table-layout: fixed;
+        }
+
+        #nyc-homeless .statistics-summary {
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto 30px;
+            padding: 0;
+        }
+
+        @media (max-width: 1200px) {
+            #nyc-homeless .statistics-container,
+            #nyc-homeless .statistics-summary {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            #nyc-homeless .statistics-container,
+            #nyc-homeless .statistics-summary {
+                width: 100%;
+                padding: 0 10px;
+            }
+        }
+
+        /* NYC homeless table column widths */
+        #nyc-homeless .statistics-table th:nth-child(1) { width: 45%; }  /* shelter_system */
+        #nyc-homeless .statistics-table th:nth-child(2) { width: 25%; }  /* approximate_population */
+        #nyc-homeless .statistics-table th:nth-child(3) { width: 30%; }  /* source */
+
+        /* Style the source links */
+        #nyc-homeless .statistics-table a {
+            color: #4a9eff;
+            text-decoration: none;
+        }
+
+        #nyc-homeless .statistics-table a:hover {
+            text-decoration: underline;
+        }
+
+        /* NYC categories table styles */
+        #nyc-categories {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        #nyc-categories .statistics-container {
+            overflow-x: auto;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        #nyc-categories .statistics-table {
+            width: 100%;
+            min-width: 800px;
+            table-layout: fixed;
+        }
+
+        #nyc-categories .statistics-summary {
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto 30px;
+            padding: 0;
+        }
+
+        /* Column widths */
+        #nyc-categories .statistics-table th:nth-child(1) { width: 25%; } /* category */
+        #nyc-categories .statistics-table th:nth-child(2) { width: 15%; } /* estimated_number */
+        #nyc-categories .statistics-table th:nth-child(3) { width: 15%; } /* percentage */
+        #nyc-categories .statistics-table th:nth-child(4) { width: 30%; } /* estimation_method */
+        #nyc-categories .statistics-table th:nth-child(5) { width: 15%; } /* sources */
+
+        /* Style the source links */
+        #nyc-categories .statistics-table a {
+            color: #4a9eff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        #nyc-categories .statistics-table a:hover {
+            text-decoration: underline;
+        }
+
+        /* NYC timeline table styles */
+        #nyc-timeline {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        #nyc-timeline .statistics-container {
+            overflow-x: auto;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        #nyc-timeline .statistics-table {
+            width: 100%;
+            min-width: 800px;
+            table-layout: fixed;
+        }
+
+        #nyc-timeline .statistics-summary {
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto 30px;
+            padding: 0;
+        }
+
+        /* Column widths */
+        #nyc-timeline .statistics-table th:nth-child(1) { width: 8%; }  /* year */
+        #nyc-timeline .statistics-table th:nth-child(2) { width: 15%; } /* approximate_population */
+        #nyc-timeline .statistics-table th:nth-child(3) { width: 12%; } /* percent_change */
+        #nyc-timeline .statistics-table th:nth-child(4) { width: 50%; } /* key_factors */
+        #nyc-timeline .statistics-table th:nth-child(5) { width: 15%; } /* sources */
+
+        /* Style the source links */
+        #nyc-timeline .statistics-table a {
+            color: #4a9eff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        #nyc-timeline .statistics-table a:hover {
+            text-decoration: underline;
+        }
+
+        /* TO-DO section styles */
+        #todo {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        #todo h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        #todo .todo-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* TO-DO section description styles */
+        #todo .todo-description {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.6;
+        }
+
+        #todo .todo-description p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            color: #fff;
+        }
+
+        #todo .todo-description p:first-child {
+            font-size: 1.3em;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        /* Basic responsive adjustments */
+        @media (max-width: 1200px) {
+            #todo .todo-content {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            #todo {
+                padding: 0 10px;
+            }
+            
+            #todo .todo-content {
+                padding: 10px;
+            }
+        }
+
+        /* Soup kitchen table styles */
+        #todo .statistics-container {
+            overflow-x: auto;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        #todo .statistics-table {
+            width: 100%;
+            min-width: 800px;
+            table-layout: fixed;
+        }
+
+        /* Column widths */
+        #todo .statistics-table th:nth-child(1) { width: 20%; } /* name */
+        #todo .statistics-table th:nth-child(2) { width: 10%; } /* borough */
+        #todo .statistics-table th:nth-child(3) { width: 20%; } /* address */
+        #todo .statistics-table th:nth-child(4) { width: 12%; } /* phone */
+        #todo .statistics-table th:nth-child(5) { width: 13%; } /* volunteer_link */
+        #todo .statistics-table th:nth-child(6) { width: 10%; } /* days_open */
+        #todo .statistics-table th:nth-child(7) { width: 15%; } /* notes */
+
+        /* Style the volunteer links */
+        #todo .statistics-table a {
+            color: #4a9eff;
+            text-decoration: none;
+        }
+
+        #todo .statistics-table a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -621,8 +1050,8 @@
             <div class="logo"><a href="#top">Homelessness NYC</a></div>
             <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
             <ul id="nav-menu">
-                <li><a href="#statistics">Statistics</a></li>
-                <li><a href="#data-insights">Data Insights</a></li>
+                <li><a href="#todo">TO-DO</a></li>
+                <li><a href="#questions">Questions</a></li>
                 <li><a href="#interviews">Interviews</a></li>
                 <li><a href="#movies">Movies</a></li>
                 <li><a href="#books">Books</a></li>
@@ -640,17 +1069,38 @@
         </p>
     </header>
 
+    <section id="todo">
+        <h2>TO-DO: How You Can Help Fight Homelessness in New York City</h2>
+        <div class="todo-content">
+            <div class="todo-description">
+                <p>When policies fall short, people step forward.</p>
+                <p>This section gives you real ways to take action — volunteer, donate, or join organizations making an immediate difference for homeless New Yorkers. Every step matters.</p>
+            </div>
+            <div class="statistics-container">
+                <table id="soup-kitchen-table" class="statistics-table">
+                    <thead>
+                        <tr>
+                            <!-- Headers will be populated by JavaScript -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </section>
 
-    <section id="statistics">
-        <h2>Homeless Population by State</h2>
+    <section id="questions">
+        <h2>Root Causes of Homelessness</h2>
+        <div class="statistics-summary">
+            <p id="root-causes-description"></p>
+        </div>
         <div class="statistics-container">
-            <table id="homeless-statistics" class="statistics-table">
+            <table id="root-causes-table" class="statistics-table">
                 <thead>
                     <tr>
-                        <th>Rank</th>
-                        <th>State</th>
-                        <th>Estimated Homeless Population</th>
+                        <!-- Headers will be populated by JavaScript -->
                     </tr>
                 </thead>
                 <tbody>
@@ -658,134 +1108,86 @@
                 </tbody>
             </table>
         </div>
-        <div class="statistics-summary">
-            <p>California and New York have the highest number of homeless people in the United States.</p>
-        </div>
     </section>
 
-    <section id="state-data">
-        <h2>State-by-State Homeless Population Data (2023)</h2>
-        <div class="state-data-container">
-            <table class="statistics-table">
+    <section id="hud-awards">
+        <h2>Why $127 B Still Hasn't Closed the Affordable-Housing Gap</h2>
+        <div class="statistics-summary">
+            <p id="hud-awards-description"></p>
+        </div>
+        <div class="statistics-container">
+            <table id="hud-awards-table" class="statistics-table">
                 <thead>
                     <tr>
-                        <th>State</th>
-                        <th>Total Homeless Population (2023)</th>
-                        <th>Percent Change Since 2022</th>
-                        <th>Percent Under 18</th>
-                        <th>Percent Veterans</th>
-                        <th>Percent Chronic Homelessness</th>
+                        <!-- Headers will be populated by JavaScript -->
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Alaska</td><td>2,614</td><td>13%</td><td>14%</td><td>5%</td><td>30%</td></tr>
-                    <tr><td>Alabama</td><td>3,304</td><td>-12%</td><td>17%</td><td>9%</td><td>22%</td></tr>
-                    <tr><td>Arkansas</td><td>2,609</td><td>6%</td><td>12%</td><td>8%</td><td>34%</td></tr>
-                    <tr><td>Arizona</td><td>14,237</td><td>5%</td><td>11%</td><td>7%</td><td>22%</td></tr>
-                    <tr><td>California</td><td>181,399</td><td>6%</td><td>9%</td><td>6%</td><td>39%</td></tr>
-                    <tr><td>Colorado</td><td>14,439</td><td>39%</td><td>16%</td><td>7%</td><td>31%</td></tr>
-                    <tr><td>Connecticut</td><td>3,015</td><td>3%</td><td>19%</td><td>5%</td><td>4%</td></tr>
-                    <tr><td>District of Columbia</td><td>4,922</td><td>12%</td><td>15%</td><td>4%</td><td>28%</td></tr>
-                    <tr><td>Delaware</td><td>1,245</td><td>-47%</td><td>27%</td><td>6%</td><td>14%</td></tr>
-                    <tr><td>Florida</td><td>30,756</td><td>18%</td><td>16%</td><td>8%</td><td>19%</td></tr>
-                    <tr><td>Georgia</td><td>12,294</td><td>15%</td><td>19%</td><td>6%</td><td>14%</td></tr>
-                    <tr><td>Hawaii</td><td>6,223</td><td>4%</td><td>15%</td><td>5%</td><td>26%</td></tr>
-                    <tr><td>Iowa</td><td>2,653</td><td>10%</td><td>19%</td><td>5%</td><td>20%</td></tr>
-                    <tr><td>Idaho</td><td>2,298</td><td>15%</td><td>20%</td><td>8%</td><td>18%</td></tr>
-                    <tr><td>Illinois</td><td>11,947</td><td>30%</td><td>20%</td><td>4%</td><td>12%</td></tr>
-                    <tr><td>Indiana</td><td>6,017</td><td>10%</td><td>20%</td><td>8%</td><td>12%</td></tr>
-                    <tr><td>Kansas</td><td>2,636</td><td>10%</td><td>17%</td><td>8%</td><td>19%</td></tr>
-                    <tr><td>Kentucky</td><td>4,766</td><td>20%</td><td>12%</td><td>9%</td><td>20%</td></tr>
-                    <tr><td>Louisiana</td><td>3,169</td><td>-57%</td><td>12%</td><td>8%</td><td>14%</td></tr>
-                    <tr><td>Massachusetts</td><td>19,141</td><td>23%</td><td>39%</td><td>3%</td><td>14%</td></tr>
-                    <tr><td>Maryland</td><td>5,865</td><td>10%</td><td>20%</td><td>5%</td><td>18%</td></tr>
-                    <tr><td>Maine</td><td>4,258</td><td>-3%</td><td>29%</td><td>3%</td><td>9%</td></tr>
-                    <tr><td>Michigan</td><td>8,997</td><td>10%</td><td>25%</td><td>5%</td><td>13%</td></tr>
-                    <tr><td>Minnesota</td><td>8,393</td><td>6%</td><td>28%</td><td>4%</td><td>24%</td></tr>
-                    <tr><td>Missouri</td><td>6,708</td><td>12%</td><td>18%</td><td>8%</td><td>24%</td></tr>
-                    <tr><td>Mississippi</td><td>982</td><td>-18%</td><td>13%</td><td>6%</td><td>13%</td></tr>
-                    <tr><td>Montana</td><td>2,178</td><td>37%</td><td>14%</td><td>10%</td><td>26%</td></tr>
-                    <tr><td>North Carolina</td><td>9,754</td><td>4%</td><td>17%</td><td>8%</td><td>17%</td></tr>
-                    <tr><td>North Dakota</td><td>784</td><td>29%</td><td>17%</td><td>3%</td><td>22%</td></tr>
-                    <tr><td>Nebraska</td><td>2,462</td><td>10%</td><td>17%</td><td>5%</td><td>25%</td></tr>
-                    <tr><td>New Hampshire</td><td>2,441</td><td>52%</td><td>18%</td><td>4%</td><td>22%</td></tr>
-                    <tr><td>New Jersey</td><td>10,264</td><td>17%</td><td>24%</td><td>4%</td><td>19%</td></tr>
-                    <tr><td>New Mexico</td><td>3,842</td><td>50%</td><td>18%</td><td>7%</td><td>44%</td></tr>
-                    <tr><td>Nevada</td><td>8,666</td><td>14%</td><td>8%</td><td>13%</td><td>28%</td></tr>
-                    <tr><td>New York</td><td>103,200</td><td>39%</td><td>28%</td><td>1%</td><td>8%</td></tr>
-                    <tr><td>Ohio</td><td>11,386</td><td>7%</td><td>18%</td><td>5%</td><td>11%</td></tr>
-                    <tr><td>Oklahoma</td><td>4,648</td><td>24%</td><td>13%</td><td>6%</td><td>30%</td></tr>
-                    <tr><td>Oregon</td><td>20,142</td><td>12%</td><td>13%</td><td>8%</td><td>34%</td></tr>
-                    <tr><td>Pennsylvania</td><td>12,556</td><td>-1%</td><td>21%</td><td>7%</td><td>16%</td></tr>
-                    <tr><td>Rhode Island</td><td>1,810</td><td>15%</td><td>21%</td><td>6%</td><td>35%</td></tr>
-                    <tr><td>South Carolina</td><td>4,053</td><td>12%</td><td>13%</td><td>10%</td><td>21%</td></tr>
-                    <tr><td>South Dakota</td><td>1,282</td><td>-8%</td><td>16%</td><td>5%</td><td>18%</td></tr>
-                    <tr><td>Tennessee</td><td>9,215</td><td>-13%</td><td>11%</td><td>8%</td><td>22%</td></tr>
-                    <tr><td>Texas</td><td>27,377</td><td>12%</td><td>15%</td><td>7%</td><td>18%</td></tr>
-                    <tr><td>Utah</td><td>3,687</td><td>4%</td><td>16%</td><td>5%</td><td>27%</td></tr>
-                    <tr><td>Virginia</td><td>6,761</td><td>4%</td><td>23%</td><td>6%</td><td>16%</td></tr>
-                    <tr><td>Vermont</td><td>3,295</td><td>19%</td><td>20%</td><td>4%</td><td>8%</td></tr>
-                    <tr><td>Washington</td><td>28,036</td><td>11%</td><td>16%</td><td>6%</td><td>31%</td></tr>
-                    <tr><td>Wisconsin</td><td>4,861</td><td>2%</td><td>24%</td><td>7%</td><td>12%</td></tr>
-                    <tr><td>West Virginia</td><td>1,416</td><td>3%</td><td>9%</td><td>6%</td><td>18%</td></tr>
-                    <tr><td>Wyoming</td><td>532</td><td>-18%</td><td>7%</td><td>17%</td><td>14%</td></tr>
+                    <!-- Data will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+        <div class="data-source-reference">
+            <p>Source data: <a href="/assets/data/hub-combined-awards-2001-2024.csv" target="_blank">hub-combined-awards-2001-2024.csv</a></p>
+        </div>
+    </section>
+
+    <section id="nyc-homeless">
+        <h2>NYC Homeless Population by Department</h2>
+        <div class="statistics-summary">
+            <p id="nyc-homeless-description"></p>
+        </div>
+        <div class="statistics-container">
+            <table id="nyc-homeless-table" class="statistics-table">
+                <thead>
+                    <tr>
+                        <!-- Headers will be populated by JavaScript -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be populated by JavaScript -->
                 </tbody>
             </table>
         </div>
     </section>
 
-    <section id="data-insights">
-        <h2>Data Insights</h2>
-        <div class="insights-text-container">
-            <div class="insight-text">
-                <h3>NYC Shelter System Overview</h3>
-                <ul>
-                    <li>As of 2023, over 93,000 people sleep in NYC's municipal shelter system each night</li>
-                    <li>The shelter population has increased by 42% since 2022</li>
-                    <li>Families with children make up nearly 60% of the homeless shelter population</li>
-                    <li>Average length of stay in shelters has increased to 509 days for families with children</li>
-                </ul>
-            </div>
+    <!-- Add this after the NYC homeless section -->
+    <section id="nyc-categories">
+        <h2>How the Homeless Population in New York City Breaks Down</h2>
+        <div class="statistics-summary">
+            <p id="nyc-categories-description"></p>
+        </div>
+        <div class="statistics-container">
+            <table id="nyc-categories-table" class="statistics-table">
+                <thead>
+                    <tr>
+                        <!-- Headers will be populated by JavaScript -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-            <div class="insight-text">
-                <h3>National Context</h3>
-                <ul>
-                    <li>Homelessness increased by 12% nationwide between 2022 and 2023</li>
-                    <li>582,462 people were experiencing homelessness on a single night in January 2023</li>
-                    <li>California, New York, and Florida have the highest rates of homelessness</li>
-                    <li>Veterans represent about 7% of the total homeless population</li>
-                </ul>
-            </div>
-
-            <div class="insight-text">
-                <h3>Economic Factors</h3>
-                <ul>
-                    <li>Rising housing costs have outpaced wage growth in most major cities</li>
-                    <li>Nearly half of all New Yorkers are rent-burdened, paying more than 30% of their income on rent</li>
-                    <li>The median rent in NYC has increased by 18% since 2021</li>
-                    <li>Eviction rates have returned to pre-pandemic levels in many areas</li>
-                </ul>
-            </div>
-
-            <div class="insight-text">
-                <h3>Demographic Trends</h3>
-                <ul>
-                    <li>People of color are disproportionately affected, representing over 85% of homeless New Yorkers</li>
-                    <li>Single adults represent approximately 32% of the homeless shelter population</li>
-                    <li>The number of senior citizens (aged 65+) in shelters has increased by 60% since 2014</li>
-                    <li>LGBTQ+ youth are 120% more likely to experience homelessness</li>
-                </ul>
-            </div>
-
-            <div class="insight-text">
-                <h3>System Challenges</h3>
-                <ul>
-                    <li>The average cost per year to shelter a homeless family is $70,000</li>
-                    <li>Only 3% of shelter residents are able to access permanent affordable housing</li>
-                    <li>The city spends over $3 billion annually on homeless services</li>
-                    <li>Shelter capacity has struggled to meet the increasing demand</li>
-                </ul>
-            </div>
+    <!-- Add this after the NYC categories section -->
+    <section id="nyc-timeline">
+        <h2>How We Ended Up With 120,000 Homeless in NYC: A Look at the History</h2>
+        <div class="statistics-summary">
+            <p id="nyc-timeline-description"></p>
+        </div>
+        <div class="statistics-container">
+            <table id="nyc-timeline-table" class="statistics-table">
+                <thead>
+                    <tr>
+                        <!-- Headers will be populated by JavaScript -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be populated by JavaScript -->
+                </tbody>
+            </table>
         </div>
     </section>
 
@@ -820,32 +1222,36 @@
         </div>
     </section>
 
-    <section id="movies" class="movie-section">
+    <section id="movies">
         <h2>Movies</h2>
-        <div class="year-filter" id="yearFilter">
-            <button class="year-btn active" data-year="all">All</button>
-            <!-- Years will be added here dynamically -->
-        </div>
-        <button class="scroll-btn left" id="scrollLeft">←</button>
-        <button class="scroll-btn right" id="scrollRight">→</button>
-        <div class="movie-scroll">
-            <div id="movie-container" class="movie-container">
-                <!-- Movies will be loaded here dynamically -->
+        <div class="movie-section">
+            <div class="year-filter" id="yearFilter">
+                <button class="year-btn active" data-year="all">All</button>
+                <!-- Years will be added here dynamically -->
+            </div>
+            <button class="scroll-btn left" id="scrollLeft">←</button>
+            <button class="scroll-btn right" id="scrollRight">→</button>
+            <div class="movie-scroll">
+                <div id="movie-container" class="movie-container">
+                    <!-- Movies will be loaded here dynamically -->
+                </div>
             </div>
         </div>
     </section>
 
     <section id="books">
         <h2>Books</h2>
-        <div class="year-filter" id="bookYearFilter">
-            <button class="year-btn active" data-year="all">All</button>
-            <!-- Years will be added here dynamically -->
-        </div>
-        <button class="scroll-btn left" id="bookScrollLeft">←</button>
-        <button class="scroll-btn right" id="bookScrollRight">→</button>
-        <div class="movie-scroll">
-            <div id="book-container" class="movie-container">
-                <!-- Books will be loaded here dynamically -->
+        <div class="movie-section">
+            <div class="year-filter" id="bookYearFilter">
+                <button class="year-btn active" data-year="all">All</button>
+                <!-- Years will be added here dynamically -->
+            </div>
+            <button class="scroll-btn left" id="bookScrollLeft">←</button>
+            <button class="scroll-btn right" id="bookScrollRight">→</button>
+            <div class="movie-scroll">
+                <div id="book-container" class="movie-container">
+                    <!-- Books will be loaded here dynamically -->
+                </div>
             </div>
         </div>
     </section>
@@ -866,7 +1272,7 @@
             });
         });
 
-        // Add this new code for movies
+        // Update the movie loading function to include movie counts per year
         async function loadMovies() {
             try {
                 const response = await fetch('/assets/data/movies.json');
@@ -880,18 +1286,23 @@
                 const titleElement = movieSection.querySelector('h2');
                 titleElement.textContent = `Movies (${sortedMovies.length})`;
                 
-                // Get unique years and create filter buttons
+                // Get unique years and count movies per year
+                const yearCounts = sortedMovies.reduce((acc, movie) => {
+                    acc[movie.year] = (acc[movie.year] || 0) + 1;
+                    return acc;
+                }, {});
+                
                 const years = [...new Set(sortedMovies.map(movie => movie.year))].sort();
                 const yearFilter = document.getElementById('yearFilter');
                 
                 // Clear existing buttons first
-                yearFilter.innerHTML = '<button class="year-btn active" data-year="all">All</button>';
+                yearFilter.innerHTML = `<button class="year-btn active" data-year="all">All <span class="count">(${sortedMovies.length})</span></button>`;
                 
                 years.forEach(year => {
                     const yearBtn = document.createElement('button');
                     yearBtn.className = 'year-btn';
-                    yearBtn.textContent = year;
-                    yearBtn.dataset.year = year.toString(); // Ensure year is string
+                    yearBtn.innerHTML = `${year} <span class="count">(${yearCounts[year]})</span>`;
+                    yearBtn.dataset.year = year.toString();
                     yearFilter.appendChild(yearBtn);
                 });
                 
@@ -1009,26 +1420,29 @@
                 const response = await fetch('/assets/data/books.json');
                 const data = await response.json();
                 
-                // Sort books by year (oldest to newest)
                 const sortedBooks = data.books.sort((a, b) => a.year - b.year);
                 
-                // Update the section title with book count
                 const bookSection = document.getElementById('books');
                 const titleElement = bookSection.querySelector('h2');
                 titleElement.textContent = `Books (${sortedBooks.length})`;
                 
-                // Get unique years and create filter buttons
+                // Get unique years and count books per year
+                const yearCounts = sortedBooks.reduce((acc, book) => {
+                    acc[book.year] = (acc[book.year] || 0) + 1;
+                    return acc;
+                }, {});
+                
                 const years = [...new Set(sortedBooks.map(book => book.year))].sort();
                 const bookYearFilter = document.getElementById('bookYearFilter');
                 
                 // Clear existing buttons first
-                bookYearFilter.innerHTML = '<button class="year-btn active" data-year="all">All</button>';
+                bookYearFilter.innerHTML = `<button class="year-btn active" data-year="all">All <span class="count">(${sortedBooks.length})</span></button>`;
                 
                 years.forEach(year => {
                     const yearBtn = document.createElement('button');
                     yearBtn.className = 'year-btn';
-                    yearBtn.textContent = year;
-                    yearBtn.dataset.year = year.toString(); // Ensure year is string
+                    yearBtn.innerHTML = `${year} <span class="count">(${yearCounts[year]})</span>`;
+                    yearBtn.dataset.year = year.toString();
                     bookYearFilter.appendChild(yearBtn);
                 });
                 
@@ -1166,11 +1580,363 @@
             }
         }
 
-        // Add this to your existing DOMContentLoaded event listener
+        // Add this new function to your JavaScript section
+        async function loadRootCauses() {
+            try {
+                const response = await fetch('/assets/data/root-cause-list.json');
+                const data = await response.json();
+                
+                // Update title and description
+                const rootCausesSection = document.getElementById('questions');
+                const titleElement = rootCausesSection.querySelector('h2');
+                titleElement.textContent = data.title || 'Root Causes of Homelessness';
+                
+                const descriptionElement = document.getElementById('root-causes-description');
+                descriptionElement.textContent = data.description || '';
+                
+                // Get the table elements
+                const thead = document.querySelector('#root-causes-table thead tr');
+                const tbody = document.querySelector('#root-causes-table tbody');
+                
+                // Clear existing content
+                thead.innerHTML = '';
+                tbody.innerHTML = '';
+                
+                // Add headers (excluding the sources column)
+                data.headers.slice(0, -1).forEach(header => {
+                    const th = document.createElement('th');
+                    th.textContent = header;
+                    thead.appendChild(th);
+                });
+                
+                // Add rows
+                data.rows.forEach(rowData => {
+                    const tr = document.createElement('tr');
+                    
+                    [
+                        rowData.rank,
+                        rowData.factor,
+                        rowData.percent_of_homeless,
+                        rowData.ranking_support,
+                        rowData.snapshot,
+                        rowData.in_simple_words,
+                    ].forEach((cellData, index) => {
+                        const td = document.createElement('td');
+                        if (index === 3 && rowData.sources) {
+                            td.innerHTML = `${cellData} ` + 
+                                (rowData.sources.length > 0 ? 
+                                    rowData.sources.map((url, idx) => 
+                                        `<a href="${url}" target="_blank">source ${idx + 1}</a>`
+                                    ).join(', ') 
+                                : '');
+                        } else {
+                            td.textContent = cellData || '-';
+                        }
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                });
+            } catch (error) {
+                console.error('Error loading root causes:', error);
+                const descriptionElement = document.getElementById('root-causes-description');
+                descriptionElement.textContent = 'Error loading data. Please try again later.';
+                
+                document.querySelector('#root-causes-table tbody').innerHTML = 
+                    '<tr><td colspan="6">Error loading data. Please try again later.</td></tr>';
+            }
+        }
+
+        async function loadHUDAwards() {
+            try {
+                const response = await fetch('/assets/data/hud-awards-reality-check.json');
+                const data = await response.json();
+                
+                // Update title and description
+                const hudAwardsSection = document.getElementById('hud-awards');
+                const titleElement = hudAwardsSection.querySelector('h2');
+                titleElement.textContent = data.title;
+                
+                const descriptionElement = document.getElementById('hud-awards-description');
+                descriptionElement.textContent = data.description;
+                
+                // Get the table elements
+                const thead = document.querySelector('#hud-awards-table thead tr');
+                const tbody = document.querySelector('#hud-awards-table tbody');
+                
+                // Clear existing content
+                thead.innerHTML = '';
+                tbody.innerHTML = '';
+                
+                // Add headers (excluding the sources)
+                data.headers.slice(0, -1).forEach(header => {
+                    const th = document.createElement('th');
+                    th.textContent = header.replace(/_/g, ' ')
+                                       .split(' ')
+                                       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                                       .join(' ');
+                    thead.appendChild(th);
+                });
+                
+                // Add rows
+                data.rows.forEach(rowData => {
+                    const tr = document.createElement('tr');
+                    
+                    // Combine data_message with sources
+                    const dataMessageWithSources = `${rowData.data_message} ` + 
+                        rowData.sources.map(source => 
+                            `<a href="${source.url}" target="_blank">source</a>`
+                        ).join(', ');
+                    
+                    [
+                        rowData.rank,
+                        rowData.reality_check,
+                        dataMessageWithSources
+                    ].forEach((cellData) => {
+                        const td = document.createElement('td');
+                        td.innerHTML = cellData;
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                });
+            } catch (error) {
+                console.error('Error loading HUD awards data:', error);
+                document.querySelector('#hud-awards-table tbody').innerHTML = 
+                    '<tr><td colspan="3">Error loading data. Please try again later.</td></tr>';
+            }
+        }
+
+        async function loadNYCHomeless() {
+            try {
+                const response = await fetch('/assets/data/nyc-homeless-by-dep.json');
+                const data = await response.json();
+                
+                // Update title and description
+                const nycHomelessSection = document.getElementById('nyc-homeless');
+                const titleElement = nycHomelessSection.querySelector('h2');
+                titleElement.textContent = data.title;
+                
+                const descriptionElement = document.getElementById('nyc-homeless-description');
+                descriptionElement.textContent = data.description;
+                
+                // Get the table elements
+                const thead = document.querySelector('#nyc-homeless-table thead tr');
+                const tbody = document.querySelector('#nyc-homeless-table tbody');
+                
+                // Clear existing content
+                thead.innerHTML = '';
+                tbody.innerHTML = '';
+                
+                // Add headers
+                data.headers.forEach(header => {
+                    const th = document.createElement('th');
+                    th.textContent = header.replace(/_/g, ' ')
+                                       .split(' ')
+                                       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                                       .join(' ');
+                    thead.appendChild(th);
+                });
+                
+                // Add rows
+                data.rows.forEach(rowData => {
+                    const tr = document.createElement('tr');
+                    
+                    [
+                        rowData.shelter_system,
+                        rowData.approximate_population.toLocaleString(),
+                        `<a href="${rowData.source_url}" target="_blank">${rowData.source_text}</a>`
+                    ].forEach(cellData => {
+                        const td = document.createElement('td');
+                        td.innerHTML = cellData;
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                });
+            } catch (error) {
+                console.error('Error loading NYC homeless data:', error);
+                document.querySelector('#nyc-homeless-table tbody').innerHTML = 
+                    '<tr><td colspan="3">Error loading data. Please try again later.</td></tr>';
+            }
+        }
+
+        async function loadNYCCategories() {
+            try {
+                const response = await fetch('/assets/data/nyc-category-list.json');
+                const data = await response.json();
+                
+                // Update title and description
+                const nycCategoriesSection = document.getElementById('nyc-categories');
+                const titleElement = nycCategoriesSection.querySelector('h2');
+                titleElement.textContent = data.title;
+                
+                const descriptionElement = document.getElementById('nyc-categories-description');
+                descriptionElement.textContent = data.description;
+                
+                // Get the table elements
+                const thead = document.querySelector('#nyc-categories-table thead tr');
+                const tbody = document.querySelector('#nyc-categories-table tbody');
+                
+                // Clear existing content
+                thead.innerHTML = '';
+                tbody.innerHTML = '';
+                
+                // Add headers
+                data.headers.forEach(header => {
+                    const th = document.createElement('th');
+                    th.textContent = header.replace(/_/g, ' ')
+                                       .split(' ')
+                                       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                                       .join(' ');
+                    thead.appendChild(th);
+                });
+                
+                // Add rows
+                data.rows.forEach(rowData => {
+                    const tr = document.createElement('tr');
+                    
+                    [
+                        rowData.category,
+                        rowData.estimated_number.toLocaleString(),
+                        rowData.percentage_of_total + '%',
+                        rowData.estimation_method,
+                        rowData.sources.map(source => 
+                            `<a href="${source.url}" target="_blank">${source.text}</a>`
+                        ).join(' ')
+                    ].forEach(cellData => {
+                        const td = document.createElement('td');
+                        td.innerHTML = cellData;
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                });
+            } catch (error) {
+                console.error('Error loading NYC categories data:', error);
+                document.querySelector('#nyc-categories-table tbody').innerHTML = 
+                    '<tr><td colspan="5">Error loading data. Please try again later.</td></tr>';
+            }
+        }
+
+        async function loadNYCTimeline() {
+            try {
+                const response = await fetch('/assets/data/nyc-homeless-timeline.json');
+                const data = await response.json();
+                
+                // Update title and description
+                const nycTimelineSection = document.getElementById('nyc-timeline');
+                const titleElement = nycTimelineSection.querySelector('h2');
+                titleElement.textContent = data.title;
+                
+                const descriptionElement = document.getElementById('nyc-timeline-description');
+                descriptionElement.textContent = data.description;
+                
+                // Get the table elements
+                const thead = document.querySelector('#nyc-timeline-table thead tr');
+                const tbody = document.querySelector('#nyc-timeline-table tbody');
+                
+                // Clear existing content
+                thead.innerHTML = '';
+                tbody.innerHTML = '';
+                
+                // Add headers
+                data.headers.forEach(header => {
+                    const th = document.createElement('th');
+                    th.textContent = header.replace(/_/g, ' ')
+                                       .split(' ')
+                                       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                                       .join(' ');
+                    thead.appendChild(th);
+                });
+                
+                // Add rows
+                data.rows.forEach(rowData => {
+                    const tr = document.createElement('tr');
+                    
+                    [
+                        rowData.year,
+                        rowData.approximate_population.toLocaleString(),
+                        rowData.percent_change_from_last ? `+${rowData.percent_change_from_last}%` : '-',
+                        rowData.key_factors,
+                        rowData.sources.map(source => 
+                            `<a href="${source.url}" target="_blank">${source.text}</a>`
+                        ).join(' ')
+                    ].forEach(cellData => {
+                        const td = document.createElement('td');
+                        td.innerHTML = cellData;
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                });
+            } catch (error) {
+                console.error('Error loading NYC timeline data:', error);
+                document.querySelector('#nyc-timeline-table tbody').innerHTML = 
+                    '<tr><td colspan="5">Error loading data. Please try again later.</td></tr>';
+            }
+        }
+
+        async function loadSoupKitchens() {
+            try {
+                console.log('Attempting to fetch soup kitchen data...');
+                const response = await fetch('/assets/data/nyc-soup-kitchen-list.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                console.log('Soup kitchen data loaded successfully:', data);
+                
+                // Get the table elements
+                const thead = document.querySelector('#soup-kitchen-table thead tr');
+                const tbody = document.querySelector('#soup-kitchen-table tbody');
+                
+                // Clear existing content
+                thead.innerHTML = '';
+                tbody.innerHTML = '';
+                
+                // Add headers
+                data.headers.forEach(header => {
+                    const th = document.createElement('th');
+                    th.textContent = header.replace(/_/g, ' ')
+                                       .split(' ')
+                                       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                                       .join(' ');
+                    thead.appendChild(th);
+                });
+                
+                // Add rows
+                data.rows.forEach(rowData => {
+                    const tr = document.createElement('tr');
+                    
+                    [
+                        rowData.name,
+                        rowData.borough,
+                        rowData.address,
+                        rowData.phone,
+                        `<a href="${rowData.volunteer_link}" target="_blank">Volunteer</a>`,
+                        rowData.days_open,
+                        rowData.notes
+                    ].forEach(cellData => {
+                        const td = document.createElement('td');
+                        td.innerHTML = cellData;
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                });
+            } catch (error) {
+                console.error('Error loading soup kitchen data:', error);
+                console.error('Error details:', error.message);
+                document.querySelector('#soup-kitchen-table tbody').innerHTML = 
+                    '<tr><td colspan="7">Error loading data. Please try again later.</td></tr>';
+            }
+        }
+
+        // Update the DOMContentLoaded event listener
         document.addEventListener('DOMContentLoaded', () => {
-            loadStatistics();
+            loadRootCauses();
+            loadHUDAwards();
+            loadNYCHomeless();
+            loadNYCCategories();
+            loadNYCTimeline();
+            loadSoupKitchens();
             loadMovies();
-            // ... any other existing load functions ...
+            loadBooks();
         });
     </script>
 </body>
