@@ -2038,7 +2038,7 @@
                         rowData.year,
                         rowData.approximate_population.toLocaleString(),
                         rowData.percent_change_from_last ? `+${rowData.percent_change_from_last}%` : '-',
-                        `${rowData.days_open}: ${rowData.key_factors}`,
+                        `${rowData.key_factors}`,
                         rowData.sources.map(source => 
                             `<a href="${source.url}" target="_blank">${source.text}</a>`
                         ).join(' ')
